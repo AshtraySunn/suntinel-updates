@@ -45,7 +45,7 @@ La présence d'une information sur Internet ne suffit pas à autoriser sa collec
 - **Des premiers composants ont été évalués**, avec réserves.
 - **Une correction de sécurité ciblée a été acceptée** après audit indépendant, avec notes.
 - **Une nouvelle protection des connexions attend son audit indépendant.**
-- **Les rapports demandent encore une correction** après leur dernier audit.
+- **Une nouvelle correction des rapports attend sa vérification indépendante** après un audit précédent défavorable.
 - **L'interface complète et l'accès sur validation restent à développer.**
 
 Les fonctions décrites ne sont pas forcément disponibles aujourd'hui. Aucun accès réel n'est ouvert.

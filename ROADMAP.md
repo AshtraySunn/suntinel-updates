@@ -6,7 +6,7 @@
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
 | **Comptes et sécurité** | Une correction acceptée avec réserves ; une autre protection des connexions livrée, en attente d'audit indépendant |
-| **Revue humaine et rapports** | Audit indépendant défavorable à la dernière version ; correctif supplémentaire nécessaire |
+| **Revue humaine et rapports** | Nouvelle correction testée par le développeur ; audit indépendant encore nécessaire avant acceptation |
 | **Interface enquêteur** | Conception terminée ; réalisation à poursuivre |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |

@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
 
+## 22 octobre 2026 — Rapports : correctif supplémentaire à vérifier
+
+Une nouvelle version a été livrée avec des tests de développement favorables sur deux types de stockage. Elle doit encore passer une **revue indépendante** ; les rapports ne sont pas déclarés prêts pour une utilisation réelle.
+
 ## 22 octobre 2026 — Comptes : nouvelle protection candidate
 
 Une amélioration destinée à invalider les anciennes sessions après désactivation d'un compte a été livrée et testée par son développeur. **Elle attend une vérification indépendante.**

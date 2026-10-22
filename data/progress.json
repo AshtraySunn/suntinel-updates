@@ -17,7 +17,7 @@
       "code": "03 · RAPPORTS",
       "title": "Revue et rapports de recherche",
       "status": "working",
-      "description": "Un audit indépendant a demandé une nouvelle correction des rapports. La version actuelle n'est pas encore acceptée."
+      "description": "Un nouveau correctif a passé les tests du développeur. Un audit indépendant doit encore confirmer sa fiabilité avant toute intégration."
     },
     {
       "code": "04 · INTERFACE",
@@ -39,6 +39,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 oct. 2026",
+      "title": "Rapports : nouvelle version prête pour vérification",
+      "summary": "Une amélioration supplémentaire vise à garantir qu'un rapport tient compte de la dernière décision enregistrée. Les tests du développeur sont favorables, mais la vérification indépendante reste à faire."
+    },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
