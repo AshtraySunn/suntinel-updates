@@ -1,64 +1,56 @@
-# Publication de la vitrine publique — procédure
+# SunTinel — Publication de la vitrine
 
-## Prérequis
+Dépôt public : **AshtraySunn/suntinel-updates**.
 
-Créer un **nouveau dépôt public dédié**, nommé de préférence `suntinel-updates`.
+Site prévu : https://ashtraysunn.github.io/suntinel-updates/
 
-Ne JAMAIS rendre public le dépôt d'application SunTinel ni utiliser ses branches ou worktrees privés comme source de publication.
+## GitHub Pages
 
-## Avec l'interface GitHub
+Depuis les paramètres du dépôt :
 
-1. Sur GitHub, créer un nouveau dépôt public `suntinel-updates` (sans copier les fichiers de l'application).
-2. Ajouter uniquement les fichiers de ce dossier de vitrine (par exemple via `git` local, ci-dessous).
-3. Ouvrir `Settings` → `Pages`.
-4. Choisir `Deploy from a branch` → `main` → `/(root)` puis enregistrer.
-5. Vérifier l'URL affichée dans `Settings` → `Pages` ; elle aura normalement la forme `https://VOTRE_IDENTIFIANT.github.io/suntinel-updates/`.
+1. Ouvrir **Settings → Pages**.
+2. Sous **Build and deployment**, choisir **Deploy from a branch**.
+3. Sélectionner **main** et **/(root)**.
+4. Enregistrer et vérifier l'URL publiée, puis contrôler l'affichage.
 
-## Avec Git depuis un dossier dédié
+Ne pas annoncer que GitHub Pages est activé sans l'avoir vérifié.
 
-Exécuter uniquement depuis le dossier extrait de cette archive, JAMAIS depuis le dépôt privé :
+## Préparer une mise à jour
 
-```bash
-cd /chemin/vers/suntinel-public-pages
-git init -b main
-git add README.md ROADMAP.md CHANGELOG.md PUBLISHING.md index.html styles.css script.js favicon.svg data/progress.json .nojekyll
-git status --short
-git commit -m "docs: launch public SunTinel progress page"
-git remote add origin https://github.com/VOTRE_IDENTIFIANT/suntinel-updates.git
-git push -u origin main
-```
+1. Identifier l'événement à communiquer et son état exact : **conception**, **livraison de candidat**, **acceptation indépendante** ou **fonctionnalité à venir**.
+2. Vérifier les éléments internes au regard de la source gelée, sans reprendre mot pour mot les conclusions brutes d'un agent.
+3. Mettre à jour **data/progress.json** pour la page.
+4. Mettre à jour **ROADMAP.md** et **CHANGELOG.md** de manière cohérente.
+5. N'actualiser la date que si l'information vérifiée a réellement changé.
+6. Relire les informations comme un communiqué public et contrôler l'absence de données sensibles.
+7. Publier **uniquement dans ce dépôt**, jamais par copie automatique du dépôt privé.
 
-La connexion GitHub et la création du dépôt doivent avoir été effectuées au préalable. Ne pas copier-coller la commande avec `VOTRE_IDENTIFIANT` inchangé.
+## Filtre de sécurité avant toute publication
 
-## Mettre à jour le site
+Ne jamais inclure :
 
-- Modifier `data/progress.json` pour le contenu visible sur la page.
-- Modifier `CHANGELOG.md` et `ROADMAP.md` pour les notes en Markdown.
-- Vérifier la cohérence des statuts et des dates.
-- Revoir les modifications **comme s'il s'agissait d'une communication publique définitive**.
-- Publier uniquement depuis le dépôt public séparé.
+- Identités de personnes recherchées, données ou captures de dossiers d'investigation.
+- Secrets, jetons, clés API, informations personnelles ou chemins WSL.
+- Détails exploitables des vulnérabilités, démonstrations d'attaque et rapports confidentiels.
+- SHAs du code privé, copies de bases, journaux internes ou informations d'infrastructure.
+- Captures de l'application opérationnelle non autorisées pour diffusion.
+- Promesses de certification, de sécurité complète, de conformité ou de disponibilité non vérifiées.
 
-## Revue de sécurité avant chaque publication
+Aucun formulaire de collecte ni aucune recherche nominative ne doivent être ajoutés à cette vitrine sans décision distincte.
 
-Ne pas inclure :
+## Vérifications rapides
 
-- Identités, recherches, résultats ou captures d'enquêtes.
-- Chemins internes, IP, comptes, clés, jetons ou secrets.
-- Reproductions de vulnérabilités ou modes d'exploitation.
-- Rapports confidentiels de sécurité, logs ou détails d'infrastructure.
-- Commits privés, descriptions détaillées de failles encore ouvertes, captures de l'application interne sans validation.
-- Assertions de certification ou de déploiement non confirmées.
+- JSON valide dans **data/progress.json**.
+- Liens internes et ancres fonctionnels.
+- Site lisible sur mobile et avec navigation clavier.
+- FAQ accessible et texte clair sur l'accès fermé.
+- Cohérence entre les états publics et les audits réellement acceptés.
+- Aucun chargement de données privées depuis le navigateur.
 
-Ne pas automatiser la copie de fichiers du dépôt privé vers ce dépôt. Ne pas publier automatiquement le résumé brut d'un agent ou d'un audit.
+Prévisualiser localement depuis un dossier contenant les fichiers du dépôt :
 
-## Prévisualisation locale
+    python3 -m http.server 8080
 
-Depuis le répertoire extrait :
+Puis ouvrir http://127.0.0.1:8080/ ; les actualités proviennent de **data/progress.json** et nécessitent un serveur HTTP local.
 
-```bash
-python3 -m http.server 8080
-```
-
-Puis ouvrir `http://127.0.0.1:8080/`.
-
-`data/progress.json` est chargé par le navigateur via `fetch`, ce qui exige un petit serveur local et non un simple double-clic sur `index.html`.
+L'ensemble peut être tenu à jour sans agent de développement coûteux ; la vérification humaine du contenu public reste indispensable.

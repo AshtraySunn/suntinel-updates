@@ -1,23 +1,27 @@
-# Journal public des avancées
+# SunTinel — Journal public des avancées
 
-Ce journal est volontairement synthétique. Il n'inclut aucun détail permettant d'exploiter des faiblesses de sécurité ni aucune information liée aux investigations.
+Ce journal rend compte des travaux sans publier de données d'enquête, de chemins internes ni de détails de sécurité exploitables. Chaque entrée distingue ce qui est **conçu**, **livré** ou **accepté**.
 
-## 22 octobre 2026 — Conception du parcours enquêteur et correctifs de la revue
+## 22 octobre 2026 — Nouveau candidat de sécurité
 
-La conception des prochains écrans et rapports a été documentée. Un ensemble de correctifs pour le parcours de test a été livré pour audit indépendant ; il n'est pas encore intégré ni déployé.
+Un correctif supplémentaire du socle de sécurité a été remis à l'examen indépendant. Des essais de non-régression ont été rapportés par le développeur. **L'acceptation indépendante et l'intégration ne sont pas encore acquises.**
 
-## 22 octobre 2026 — Revue indépendante du socle de comptes et dossiers
+## 22 octobre 2026 — Parcours de revue et restitution
 
-Une campagne indépendante a permis d'évaluer la robustesse de la gestion des comptes, sessions et dossiers. Des améliorations de sécurité et d'intégrité ont été identifiées et priorisées. Les correctifs correspondants restent à réaliser et à faire vérifier.
+Des améliorations du parcours simulé ont été livrées concernant l'affichage des décisions humaines, le marquage des observations fictives et la gestion des conflits. **Ces corrections restent à vérifier indépendamment** avant toute intégration.
 
-## 22 octobre 2026 — Stabilisation de la bêta privée
+## 22 octobre 2026 — Expérience enquêteur : conception documentée
 
-Les mécanismes internes continuent d'être examinés. Certaines corrections ont été validées dans leur propre périmètre, tandis que d'autres nécessitent des travaux complémentaires avant intégration.
+Les prochains écrans de consultation, les rapports consolidés et les mécanismes prudents de récupération ont été spécifiés. Il s'agit de **travaux de conception**, non de fonctionnalités accessibles aux utilisateurs.
 
-## 22 octobre 2026 — Parcours d'investigation et expérience enquêteur
+## 22 octobre 2026 — Comptes et dossiers : audit indépendant
 
-Des travaux séparés sont consacrés à l'amélioration d'un parcours de test entièrement simulé et à la conception des écrans et rapports destinés à un futur usage autorisé.
+Une analyse distincte des mécanismes de comptes, de sessions et de création des dossiers a permis de prioriser des améliorations. **Les constatations ne signifient pas que les correctifs correspondants sont déjà réalisés.**
+
+## 22 octobre 2026 — Stabilisation de la bêta 0.1
+
+Des composants historiques ont été évalués favorablement dans des périmètres limités, parfois avec réserves. La plateforme complète n'est ni ouverte au public ni qualifiée pour un usage réel.
 
 ---
 
-**Note de transparence :** SunTinel reste en développement. Il n'y a pas d'accès public à la plateforme ni de recherche réelle proposée sur cette page.
+**Transparence :** SunTinel reste en développement. Aucun jalon de ce journal n'autorise des recherches réelles ou un déploiement.
