@@ -1,43 +1,35 @@
-# SunTinel — Types de recherche et outils
+# Ce que SunTinel permettra de rechercher
 
-**Projet en bêta fermée : aucune recherche réelle n'est ouverte ou autorisée.** Toutes les possibilités ci-dessous sont décrites au futur ou dans un cadre de tests fictifs.
+*Bêta en développement. Les recherches réelles ne sont pas autorisées et aucune fonctionnalité de recherche n'est accessible au public.*
 
-## Les recherches envisagées
+## Les recherches
 
-| Recherche | Exemple simple | Statut |
+| Recherche | Exemple simple | Situation |
 | --- | --- | --- |
-| Identité | Chercher des mentions d'un nom et prénom et examiner les sources | Parcours testé avec données fictives |
-| Pseudonyme | Voir si le même nom d'utilisateur apparaît sur plusieurs sites | Outils spécialisés en développement |
-| Entreprise / association | Retrouver une structure dans des données publiques françaises | Source publique étudiée |
-| Adresse e-mail ou téléphone | Examiner d'éventuelles mentions publiques et licites | Projet futur, non disponible |
-| Photo / image | Explorer une recherche d'image inversée | Piste future non intégrée |
-| Site ou domaine | Examiner des informations publiques associées à un site | Piste future à qualifier |
+| **Nom et prénom** | Retrouver des mentions publiques d'un nom, puis vérifier les sources | Parcours testé avec des données fictives |
+| **Pseudonyme** | Repérer le même nom d'utilisateur sur plusieurs sites | Outils spécialisés en test |
+| **Entreprise ou association** | Consulter les informations publiques d'une structure | Source publique étudiée |
+| **E-mail ou téléphone** | Rechercher d'éventuelles mentions accessibles légalement | À l'étude |
+| **Photo ou site web** | Explorer une image ou des informations publiques sur un site | Piste future |
 
-Une même appellation peut correspondre à plusieurs personnes. **SunTinel ne devra jamais confirmer automatiquement une identité à partir d'un seul indice.**
+Ces recherches ne donnent pas accès à des comptes privés et ne prouvent pas automatiquement l'identité d'une personne.
 
-## Les outils externes connus
+## Quels outils existent ?
 
-| Outil | À quoi sert-il ? | Place dans SunTinel |
-| --- | --- | --- |
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Chercher un pseudonyme sur différents sites | Adaptation travaillée et testée dans des périmètres limités |
-| [Maigret](https://github.com/soxoj/maigret) | Chercher des profils associés à un pseudonyme | Collecteur travaillé ; pas d'activation réelle automatique |
-| [Tavily](https://tavily.com/) | Rechercher des pages du Web | Connecteur étudié et testé dans des périmètres limités |
-| [DDGS](https://github.com/deedy5/ddgs) | Réunir des résultats de moteurs de recherche | Collecteur travaillé, utilisation réelle soumise à validation |
-| [Recherche d'entreprises](https://recherche-entreprises.api.gouv.fr/docs/) | Consulter les données ouvertes d'entreprises françaises | Connexion à la source publique travaillée |
+Nous utilisons ou étudions des outils tiers pour les tâches spécialisées :
 
-Ces outils appartiennent à leurs éditeurs ou communautés respectives. **Ils n'ont pas été créés par SunTinel.** Leur présence dans le projet ne signifie pas qu'ils sont actuellement activés ou approuvés pour des recherches réelles.
+- **[Sherlock](https://github.com/sherlock-project/sherlock) et [Maigret](https://github.com/soxoj/maigret)** : recherche de pseudonymes.
+- **[Tavily](https://tavily.com/) et [DDGS](https://github.com/deedy5/ddgs)** : recherche de pages sur Internet.
+- **[Recherche d'entreprises](https://recherche-entreprises.api.gouv.fr/docs/)** : informations publiques sur des entreprises françaises.
 
-## Ce que nous avons développé nous-mêmes
+Ces outils ne sont **pas créés par SunTinel** et ne sont pas tous activés. Une intégration technique ne vaut pas autorisation de recherche réelle.
 
-**SunTinel est le logiciel créé pour coordonner le travail.** Il comprend des composants de préparation d'investigations, de gestion des dossiers et autorisations, de tri des résultats, de suppression des doublons, de conservation des sources, de revue humaine et de rapports.
+## Qu'avons-nous créé nous-mêmes ?
 
-Des journaux permettent de retracer les opérations importantes. Les exports de rapports ont été testés sur des données fictives. Plusieurs fonctions restent à vérifier ou à améliorer avant l'ouverture du produit.
+**SunTinel** est le logiciel qui doit relier les étapes : créer un dossier, organiser les résultats, retirer les doublons, garder les sources, permettre leur examen et préparer les rapports.
 
-## Ce que SunTinel ne fera pas
+Les composants sont encore testés séparément. La plateforme entière n'est pas ouverte.
 
-- Accéder par magie à des comptes privés ou à des fichiers protégés.
-- Transformer une ressemblance en identité prouvée.
-- Ouvrir des recherches sur des personnes à tout visiteur.
-- Remplacer la décision humaine ou le respect du droit.
+**Règle essentielle :** une ressemblance de nom ou de pseudonyme est une piste, pas une identité confirmée.
 
-[Retour à la présentation](README.md) · [Sécurité et cadre légal](SECURITE_ET_DROIT.md)
+[Retour à la présentation](README.md) · [Voir l'avancement](ROADMAP.md)

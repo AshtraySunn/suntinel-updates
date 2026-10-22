@@ -1,41 +1,62 @@
-# SunTinel — Sécurité et cadre légal, expliqués simplement
+# Comment SunTinel prévoit de protéger les données
 
-**Situation au 22 octobre 2026 : projet en développement et non ouvert à l'utilisation réelle.** Ce document présente nos principes, sans prétendre que toutes les protections sont déjà terminées ou validées.
+*Explications simples · Situation au 22 octobre 2026 · Produit non ouvert.*
 
-## Comment les informations seront-elles protégées ?
+## 1. Chiffrement
 
-**1. Chiffrement.** Chiffrer une information, c'est la rendre illisible pour une personne qui n'a pas la clé. Le projet prévoit des protections pour les données échangées, stockées et sauvegardées. **Nous n'affirmons pas que l'ensemble de ces protections est déjà déployé et vérifié.**
+**Le chiffrement rend des informations illisibles sans la clé qui permet de les lire.**
 
-**2. Comptes vérifiés.** Un compte ne pourra pas être créé librement : la demande d'accès sera examinée avant toute activation. Même parmi les comptes approuvés, les dossiers resteront séparés. Les protections de connexion et de révocation sont encore en cours de consolidation.
+Il peut servir à protéger les échanges sur Internet, les fichiers conservés et les sauvegardes.
 
-**3. Historique d'audit.** Le logiciel doit permettre de savoir quelles actions importantes ont été effectuées et quelles décisions ont été prises. Des mécanismes de journalisation sont déjà testés. Leur consultation et leur export complet pour vérification restent à valider.
+**Ce qui reste à faire :** vérifier précisément quelles données sont chiffrées, comment les clés sont protégées et quelles sauvegardes sont couvertes. Nous ne prétendons pas aujourd'hui que toutes les données de SunTinel sont chiffrées.
 
-**4. Rapports exportables.** Des rapports ont été essayés au format PDF, texte et données structurées avec des données fictives. Ils doivent présenter les sources et les réserves, sans inventer de preuve d'identité. Les rapports complets de dossier et les exports finaux restent en cours de développement.
+## 2. Accès aux dossiers
 
-**5. Conservation limitée.** Les informations ne devront pas être conservées indéfiniment : chaque usage nécessitera une durée justifiée et des règles de suppression. Ces décisions sont encore à prendre.
+L'accès au produit devra être **approuvé manuellement**. Aucun compte ne pourra être créé automatiquement depuis un formulaire public.
 
-**6. Vérifications indépendantes.** Les travaux sont testés et audités par étapes. Une fonction en développement n'est pas une garantie de sécurité générale.
+Les utilisateurs approuvés auront les mêmes fonctions, mais **pas automatiquement accès aux dossiers des autres**.
 
-## Quelles règles juridiques s'appliquent ?
+**Ce qui reste à faire :** finir de vérifier la protection des comptes, des connexions et des autorisations.
 
-**Une information visible publiquement sur Internet n'est pas librement réutilisable pour n'importe quel objectif.**
+## 3. Historique d'audit
 
-Avant une recherche réelle, il faut notamment identifier qui est responsable du traitement, quel est son objectif, quel fondement juridique permet la recherche, quelles données sont nécessaires et combien de temps elles seront conservées.
+Un **journal d'audit** est un historique permettant de savoir quelles actions importantes ont été réalisées : changements, décisions et opérations.
 
-Les principaux textes à examiner selon le contexte sont :
+Des mécanismes de suivi ont été testés. **La consultation et l'export complet du journal d'audit ne sont pas encore validés.**
 
-- Le **RGPD**, lorsqu'il s'applique.
-- La **loi française Informatique et Libertés**.
-- Les règles spéciales dites **« Police-Justice »**, qui peuvent s'appliquer aux traitements réalisés par des autorités compétentes pour certaines finalités de police ou de justice.
-- Les règles de protection de la vie privée et les autres lois applicables à la collecte et à l'utilisation des informations.
+## 4. Rapports exportables
 
-Les règles et les droits des personnes ne sont pas identiques dans tous les contextes. **Il ne serait pas exact de présenter SunTinel comme déjà « conforme RGPD » ou légalement autorisé pour toutes les enquêtes.** Les décisions de gouvernance et de conservation restent ouvertes, et aucune recherche réelle n'est autorisée par la présente phase.
+Des rapports de recherche aux formats **PDF**, **texte** et **données structurées** ont été testés avec des exemples fictifs.
 
-## Pour en savoir plus : sources officielles
+Ils doivent permettre de retrouver les sources, les décisions humaines et les incertitudes. **Les rapports complets et certaines opérations simultanées nécessitent encore des corrections.**
 
-- [CNIL — Ce que le recoupement d'informations en ligne peut révéler](https://www.cnil.fr/fr/recoupement-dinformations-en-ligne-ce-que-vous-publiez-peut-devoiler-votre-vie-privee)
-- [CNIL — Définir une finalité légitime](https://www.cnil.fr/fr/passer-laction/definir-une-finalite)
-- [CNIL — Directive Police-Justice](https://www.cnil.fr/fr/directive-police-justice-de-quoi-parle-t)
-- [CNIL — Sécurité des données et article 32 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4)
+Il ne faut pas confondre l'**export d'un rapport de recherche** et l'**export d'un journal d'audit** : ce sont deux fonctions différentes.
 
-Ces références expliquent les principes généraux. Elles ne remplacent pas une analyse juridique propre à chaque utilisation.
+## 5. Durée de conservation
+
+Les informations ne doivent pas être gardées indéfiniment. Chaque usage devra avoir une durée de conservation justifiée, puis des règles de suppression adaptées.
+
+**Les durées et les procédures définitives ne sont pas encore arrêtées.**
+
+## 6. Respect du droit français et européen
+
+**Une information publique peut rester une donnée personnelle.** Il faut donc avoir une raison et un fondement juridique appropriés pour l'utiliser, limiter les informations recueillies et protéger les personnes concernées.
+
+Selon **la finalité et l'organisme responsable**, les règles applicables peuvent notamment être :
+
+- Le **RGPD**.
+- La **loi Informatique et Libertés**.
+- Le régime particulier dit **« Police-Justice »**, pour certains traitements des autorités compétentes.
+
+Ces cadres ne sont pas interchangeables. Les droits et obligations exacts dépendent de l'utilisation. La création de SunTinel n'accorde aucune autorisation de rechercher ou de conserver des données.
+
+**SunTinel n'est ni déclaré conforme pour tout usage, ni homologué, ni ouvert.** La sécurité et le cadre juridique devront être validés avant toute utilisation réelle.
+
+### Sources officielles
+
+- [CNIL — Recoupement d'informations sur Internet et vie privée](https://www.cnil.fr/fr/recoupement-dinformations-en-ligne-ce-que-vous-publiez-peut-devoiler-votre-vie-privee)
+- [CNIL — Pourquoi définir un objectif précis au traitement](https://www.cnil.fr/fr/passer-laction/definir-une-finalite)
+- [CNIL — La directive « Police-Justice »](https://www.cnil.fr/fr/la-directive-police-justice)
+- [CNIL — Sécurité et protection des données dans le RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre4)
+
+Ces liens expliquent les règles générales ; ils ne remplacent pas une analyse juridique propre à chaque organisme ou enquête.

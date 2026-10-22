@@ -1,43 +1,39 @@
-# SunTinel — Questions fréquentes
+# Questions fréquentes
 
-## Qu'est-ce que SunTinel ?
+### SunTinel est-il disponible ?
 
-Un logiciel privé en développement pour aider des enquêteurs autorisés à rassembler des informations publiques, les comparer et rédiger des rapports clairs.
+**Non.** La bêta est en développement et l'accès est fermé.
 
-## Que pourra-t-on rechercher ?
+### Que pourra-t-on rechercher ?
 
-Des **noms et prénoms**, des **pseudonymes**, des **entreprises ou associations**. Les recherches à partir d'un **e-mail**, d'un **téléphone**, d'une **photo** ou d'autres indices sont des pistes futures à étudier. **Ces recherches ne sont pas ouvertes aujourd'hui.**
+Des noms, pseudonymes et informations publiques sur des entreprises. Les recherches par e-mail, téléphone, image ou site sont encore à l'étude. Aucune recherche réelle n'est autorisée aujourd'hui.
 
-## Quels outils sont utilisés ?
+### Quels outils utilisez-vous ?
 
-Des outils externes sont travaillés : **Sherlock**, **Maigret**, **Tavily**, **DDGS** et **Recherche d'entreprises**. Ils servent à rechercher des profils ou des informations publiques. Tous ne sont pas autorisés pour un usage réel.
+Sherlock, Maigret, Tavily, DDGS et une source publique de données d'entreprises sont travaillés ou étudiés. **SunTinel** est le logiciel que nous développons pour réunir les résultats et aider à les examiner.
 
-## Qu'avez-vous créé vous-mêmes ?
+### SunTinel peut-il confirmer une identité ?
 
-**SunTinel** : le logiciel qui organise les dossiers, rapproche les observations, garde leurs sources, trace les revues et prépare les rapports. Ce n'est pas une simple page qui renvoie vers les outils externes.
+**Non, pas automatiquement.** Un nom ou pseudonyme peut correspondre à plusieurs personnes. La vérification reste humaine.
 
-## Les données sont-elles chiffrées ?
+### Les données sont-elles entièrement chiffrées ?
 
-Le chiffrement rend une information illisible sans clé. Le projet prévoit de protéger les échanges, les informations conservées et les sauvegardes. **Toutes ces protections ne sont pas encore vérifiées : nous ne promettons pas un chiffrement intégral déjà opérationnel.**
+Nous ne pouvons pas encore le garantir. La protection des données enregistrées et des sauvegardes doit être vérifiée.
 
-## Y aura-t-il un historique et des exports ?
+### Peut-on exporter les résultats et les audits ?
 
-Oui, c'est un objectif central. Des journaux d'audit et des rapports existent dans les composants testés. Les formats PDF, texte et données structurées ont été exercés avec des données fictives. L'export complet des journaux d'audit reste à qualifier.
+Des rapports de recherche en PDF, texte et données structurées ont été testés avec des exemples fictifs. **L'export complet du journal d'audit reste à valider.**
 
-## Est-ce conforme au RGPD ?
+### Est-ce conforme au RGPD ?
 
-SunTinel est conçu pour intégrer la protection des données, **mais n'est pas encore déclaré conforme ou homologué**. Selon les utilisateurs et l'objectif, le RGPD, la loi Informatique et Libertés ou les règles « Police-Justice » peuvent s'appliquer. Une donnée publique n'est pas librement réutilisable pour tout.
+Aucune conformité globale n'est revendiquée. Les obligations dépendent du contexte : RGPD, loi Informatique et Libertés ou régime « Police-Justice » peuvent s'appliquer.
 
-## Qui pourra l'utiliser ?
+### Qui pourra demander un compte ?
 
-Des professionnels et associations d'investigation dont l'accès sera examiné manuellement. Les dossiers resteront séparés même entre comptes approuvés. Aucun formulaire de candidature n'est encore ouvert.
+Des professionnels ou associations d'investigation identifiés, après ouverture d'une procédure de demande. Chaque accès sera examiné manuellement. **Les demandes ne sont pas encore ouvertes.**
 
-## Quand sera-t-il disponible ?
+### Quand SunTinel sera-t-il disponible ?
 
-Aucune date n'est annoncée. La sécurité, les audits, le cadre juridique et les décisions de gouvernance doivent être validés avant toute ouverture.
+Aucune date n'est annoncée. La sécurité, le droit et les contrôles techniques doivent être validés avant toute décision.
 
-## Pourquoi le code n'est-il pas sur ce dépôt ?
-
-Ce GitHub publie seulement la présentation et les avancées. Le code privé, les données d'enquête et les rapports de sécurité internes ne sont pas publics.
-
-**Lire aussi :** [Recherches et outils](OUTILS_ET_RECHERCHES.md) · [Sécurité et droit](SECURITE_ET_DROIT.md) · [Feuille de route](ROADMAP.md).
+[Accueil](README.md) · [Sécurité et droit](SECURITE_ET_DROIT.md) · [Avancement](ROADMAP.md)

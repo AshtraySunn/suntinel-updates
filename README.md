@@ -1,80 +1,60 @@
-# SunTinel — Rechercher avec méthode
+# SunTinel
 
-**SunTinel** est un logiciel privé d'aide à l'investigation en sources ouvertes, aussi appelées **OSINT**. L'idée est simple : réunir des pistes trouvées sur Internet dans un même dossier, les comparer et préparer un rapport, sans affirmer trop vite qu'elles concernent une personne.
+**Rechercher. Vérifier. Expliquer.**
 
-> **Au 22 octobre 2026 : bêta 0.1 en développement, accès fermé.** Le site ne permet pas de rechercher des personnes. Les tests récents utilisent des données fictives.
+SunTinel est un **logiciel privé en développement** pour aider des enquêteurs autorisés à organiser des recherches sur Internet, comparer les informations publiques et préparer des rapports.
 
-**[Découvrir le site SunTinel](https://ashtraysunn.github.io/suntinel-updates/)**
+**[Découvrir la page de présentation](https://ashtraysunn.github.io/suntinel-updates/)**
 
-## Quelles recherches sont envisagées ?
+> **Bêta 0.1 · 22 octobre 2026 : accès fermé.** Aucun utilisateur ne peut lancer de recherches réelles depuis cette page.
 
-| Point de départ | À quoi cela pourrait servir | Situation |
-| --- | --- | --- |
-| Nom et prénom | Retrouver des mentions publiques et comparer les sources | Parcours bêta testé avec données fictives |
-| Pseudonyme | Chercher un nom d'utilisateur sur différents sites | Collecteurs spécialisés travaillés en développement |
-| Entreprise ou association | Consulter des informations publiques sur une structure | Connecteur de données publiques étudié |
-| E-mail ou téléphone | Rechercher, si c'est légalement autorisé, des mentions publiques de cet indice | Envisagé, non disponible |
-| Photo, domaine ou autre indice | Explorer des pistes et des liens entre sources | À l'étude, non intégré à la bêta |
+## À quoi cela servira ?
 
-**Important :** un résultat possible n'est pas une preuve d'identité. Les fonctions présentées ne sont pas ouvertes à des recherches réelles.
+SunTinel vise à réunir les recherches et leurs résultats dans un seul dossier. L'enquêteur pourra garder les sources, voir les éventuelles contradictions et expliquer pourquoi il retient ou rejette une piste.
 
-## Quels outils utilisons-nous ?
+**Ce n'est pas un outil qui prouve automatiquement une identité.**
 
-**Ce que nous développons nous-mêmes : SunTinel.** C'est le logiciel qui relie les étapes : dossiers, préparation des recherches, rapprochement et tri des observations, conservation des sources, revue humaine, historique des actions et rapports. Les composants sont encore en test et en stabilisation.
+### Recherches envisagées
 
-**Les outils externes travaillés :**
+| Point de départ | Situation actuelle |
+| --- | --- |
+| **Nom et prénom** | Parcours testé avec des données fictives |
+| **Pseudonyme** | Outils spécialisés en test |
+| **Entreprise ou association** | Source de données publiques étudiée |
+| **E-mail ou numéro de téléphone** | À l'étude, pas encore disponible |
+| **Photo ou site Internet** | Piste future |
 
-- **Sherlock et Maigret** : chercher des pseudonymes sur des sites publics.
-- **Tavily et DDGS** : trouver des pages et des informations sur le Web.
-- **Recherche d'entreprises** : consulter des informations publiques sur des structures françaises.
+Nous travaillons avec des outils spécialisés existants comme **Sherlock**, **Maigret**, **Tavily**, **DDGS** et **Recherche d'entreprises**. **SunTinel est notre propre logiciel**, conçu pour organiser les résultats de ces sources. Aucun de ces outils n'est autorisé ici pour des recherches réelles.
 
-Certains composants existent dans le projet sans être autorisés pour des recherches réelles. La présence d'un outil **ne signifie pas qu'il est actif**, disponible ou certifié.
+[Comprendre les recherches et les outils](OUTILS_ET_RECHERCHES.md)
 
-## Comment une investigation devrait-elle se dérouler ?
+## Comment protéger les informations ?
 
-1. Ouvrir un dossier et définir le but de la recherche.
-2. Préparer les critères et vérifier les autorisations nécessaires.
-3. Rassembler les observations en gardant leurs sources.
-4. Comparer les résultats et retirer les doublons.
-5. Examiner les pistes et expliquer les décisions.
-6. Produire un rapport avec les réserves utiles.
+La protection des dossiers fait partie des priorités : **comptes approuvés**, **accès limités aux dossiers**, **chiffrement**, **historique des actions** et **rapports exportables**.
 
-Ce chemin décrit **l'objectif du produit**, pas un service aujourd'hui disponible.
+Des éléments ont déjà été testés sur des exemples fictifs. D'autres, notamment le chiffrement du stockage, les sauvegardes, l'export complet des traces et les durées de conservation, **restent à vérifier ou décider**.
 
-## Comment protégeons-nous les informations ?
+La présence d'une information sur Internet ne suffit pas à autoriser sa collecte. Le **RGPD**, la **loi Informatique et Libertés** ou les règles **« Police-Justice »** peuvent s'appliquer selon les circonstances.
 
-L'accès sera limité aux comptes approuvés, avec des droits distincts pour chaque dossier.
+**Aucune conformité globale, homologation ni date d'ouverture n'est annoncée.**
 
-- **Chiffrement :** rendre une information illisible sans la clé permettant de la lire. La protection des échanges, du stockage et des sauvegardes fait partie des exigences ; sa couverture complète reste à valider.
-- **Historique d'audit :** garder une trace des actions et des décisions importantes. Des composants existent, mais l'export complet de ces traces reste à qualifier.
-- **Rapports exportables :** des exports PDF, texte et données structurées ont été testés sur des scénarios fictifs ; ils ne sont pas encore qualifiés pour un usage réel.
-- **Durée de conservation :** ne garder les informations que le temps justifié. Les règles définitives ne sont pas encore arrêtées.
+[Lire le guide simple de sécurité et de droit](SECURITE_ET_DROIT.md)
 
-**SunTinel n'est pas présenté comme déjà certifié ou totalement sécurisé.** Voir les [explications simples sur la sécurité et le droit](SECURITE_ET_DROIT.md).
+## Où en sommes-nous ?
 
-## RGPD et législation
+- **Des premiers composants ont été évalués**, avec réserves.
+- **Une correction de sécurité ciblée a été acceptée** après audit indépendant, avec notes.
+- **Les rapports et la revue humaine nécessitent encore des corrections.**
+- **L'interface complète et l'accès sur validation restent à développer.**
 
-Les informations publiées en ligne restent susceptibles d'être des données personnelles. Les utiliser impose un but légitime, une base juridique adaptée, une collecte proportionnée et des protections appropriées.
+Les fonctions décrites ne sont pas forcément disponibles aujourd'hui. Aucun accès réel n'est ouvert.
 
-Selon le contexte, le **RGPD**, la **loi Informatique et Libertés** ou les règles spécifiques **« Police-Justice »** peuvent s'appliquer. Les conditions doivent être examinées avant tout usage réel ; aucune conformité globale n'est revendiquée à ce stade.
+[Feuille de route](ROADMAP.md) · [Journal des avancées](CHANGELOG.md) · [Questions fréquentes](FAQ.md)
 
-## Qui pourra utiliser SunTinel ?
+## Ce dépôt GitHub
 
-Le projet vise des enquêteurs et des structures associatives d'investigation identifiés. La future admission sera **manuelle**, sans création automatique de compte. Les comptes approuvés auront les mêmes fonctionnalités, mais **pas accès automatiquement aux dossiers des autres**.
+Ce dépôt est uniquement **le site public de présentation et d'actualités**. Il ne contient pas le code privé de l'application, des dossiers, des données de personnes, des secrets ou des rapports confidentiels.
 
-Aucun formulaire d'inscription n'est actuellement ouvert.
+SunTinel est un projet indépendant. Il n'est pas présenté comme un service officiel ou homologué d'une administration.
 
-## Avancement et transparence
-
-- [Feuille de route](ROADMAP.md) : ce qui est évalué, en cours de revue ou prévu.
-- [Journal public](CHANGELOG.md) : dernières étapes annoncées.
-- [FAQ](FAQ.md) : réponses en langage simple.
-- [Sécurité et droit](SECURITE_ET_DROIT.md) : protections, limites et sources officielles.
-
-**Point d'étape :** un correctif de sécurité ciblé a été accepté après audit indépendant avec réserves. En revanche, le dernier parcours de revue doit encore être corrigé sur ses rapports. Une acceptation partielle ne donne jamais l'autorisation de déployer ou d'effectuer des recherches réelles.
-
-## À propos de ce dépôt
-
-Ce dépôt public héberge **uniquement la vitrine**. Il ne contient ni code privé d'investigation, ni dossier, ni donnée personnelle, ni secret, ni rapport de sécurité confidentiel.
-
-SunTinel est un projet indépendant ; il n'est pas présenté comme un service officiel ou homologué d'une administration. La publication de cette vitrine n'accorde aucune licence sur le code applicatif privé.
+[Comment la page est mise à jour](PUBLISHING.md)

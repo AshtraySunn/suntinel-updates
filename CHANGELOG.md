@@ -1,27 +1,23 @@
-# SunTinel — Journal public des avancées
+# Journal public des avancées
 
-Le journal explique ce qui avance, **sans publier de données personnelles, de failles détaillées ou de promesses de conformité non vérifiées**.
+*Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
 
-## 22 octobre 2026 — Présentation du projet clarifiée
+## 22 octobre 2026 — Sécurité : une correction vérifiée
 
-La vitrine explique désormais les recherches envisagées (nom, pseudonyme, entreprise et autres indices), la différence entre SunTinel et les outils externes, ainsi que les principes de chiffrement, d'accès privé, d'audit, d'export et de respect du droit. Il s'agit d'informations sur le projet, pas d'une annonce de disponibilité.
+Une correction ciblée a été acceptée après un audit indépendant, **avec réserves**. D'autres protections restent à compléter avant toute utilisation réelle.
 
-## 22 octobre 2026 — Sécurité : audit indépendant favorable sur un correctif ciblé
+## 22 octobre 2026 — Rapports : encore des améliorations
 
-Un correctif de sécurité a été accepté après vérification indépendante, avec réserves. Cette validation concerne seulement une partie du logiciel. Elle n'autorise ni utilisation réelle ni déploiement.
+L'audit du parcours de revue a confirmé plusieurs progrès, mais également des problèmes dans la production des rapports. Une nouvelle correction est nécessaire avant acceptation.
 
-## 22 octobre 2026 — Parcours fictif : progrès confirmés, rapports encore à corriger
+## 22 octobre 2026 — Parcours enquêteur : conception prête
 
-La vérification indépendante confirme plusieurs améliorations, notamment pour la revue humaine et le signalement des données fictives. Elle demande néanmoins de corriger la production et l'actualisation des rapports avant acceptation.
+Les futurs écrans, les rapports complets et le traitement des résultats incertains sont décrits. Ils ne sont pas encore disponibles dans la plateforme.
 
-## 22 octobre 2026 — Conception des futurs écrans
+## 22 octobre 2026 — Présentation publique simplifiée
 
-Les écrans enquêteur, les rapports consolidés et les méthodes prudentes de récupération ont été décrits dans des documents de conception. Leur développement et leur validation restent distincts.
-
-## 22 octobre 2026 — Audit des comptes et dossiers
-
-Une revue indépendante a identifié des améliorations de sécurité et d'intégrité à réaliser et faire vérifier.
+Le site explique maintenant plus clairement les recherches envisagées, les outils utilisés, la protection des informations et les étapes du développement.
 
 ---
 
-**SunTinel reste fermé et n'autorise pas de recherches réelles.**
+**La plateforme reste fermée. Aucune recherche réelle n'est autorisée à ce stade.**

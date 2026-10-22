@@ -1,26 +1,28 @@
-# Publication de la vitrine SunTinel
+# Mettre à jour le site public SunTinel
 
-Dépôt : AshtraySunn/suntinel-updates. La vitrine est distincte du code privé.
+Ce dépôt contient uniquement le site de présentation. Ne jamais y copier le code ou les rapports confidentiels de l'application.
 
-## Publier sur GitHub Pages
+## Publier avec GitHub Pages
 
-Dans **Settings → Pages**, choisir **Deploy from a branch → main → /(root)**. Vérifier ensuite que le site est accessible à https://ashtraysunn.github.io/suntinel-updates/.
+Dans **Settings → Pages** du dépôt, choisir **Deploy from a branch**, la branche **main**, et le dossier **/(root)**. Vérifier ensuite que le site est accessible avant de le partager.
 
-## À chaque mise à jour
+## Mettre à jour les actualités
 
-1. Vérifier ce que le développement ou l'audit a réellement démontré.
-2. Écrire une nouvelle courte et compréhensible : **conçu, en test, livré pour audit, accepté avec réserves ou prévu**.
-3. Mettre à jour `data/progress.json`, le journal et la feuille de route si nécessaire.
-4. Vérifier l'absence de secrets, informations personnelles, détails exploitables des failles ou chemins internes.
-5. Ne pas affirmer que le chiffrement, la conformité RGPD ou l'export intégral des audits est validé sans preuve distincte.
-6. Publier uniquement dans ce dépôt, jamais en copiant automatiquement des fichiers du dépôt privé.
+1. Vérifier l'information avant de l'annoncer.
+2. Modifier \`data/progress.json\` pour les cartes et actualités visibles sur le site.
+3. Mettre à jour \`ROADMAP.md\` ou \`CHANGELOG.md\` si nécessaire.
+4. Vérifier que les statuts sont identiques partout.
+5. Lancer \`python3 scripts/check_site.py\` depuis la racine du dépôt.
+6. Relire chaque phrase comme une information **publique et définitive**.
 
-Ne pas ajouter d'outil de recherche réel, de formulaire demandant des données d'enquête ou d'inscription active depuis la vitrine.
+## À ne jamais publier
 
-## Contrôles rapides
+- Identité de personnes recherchées, dossiers, captures d'enquête.
+- Mots de passe, clés, adresses internes, journaux confidentiels.
+- Détails de vulnérabilités ou techniques de contournement.
+- Code privé, commits privés, documents de travail internes.
+- Annonce de conformité, chiffrement intégral ou disponibilité non vérifiée.
 
-- Site lisible sur téléphone, liens et ancres corrects.
-- Documentation et actualités cohérentes.
-- Données structurées valides.
-- Aucun contenu d'investigation réel.
-- Respect des statuts et des réserves.
+**Les mots à employer sont simples :** « testé », « en cours », « prévu », « accepté avec réserves ». Éviter de confondre « terminé par le développeur » avec « vérifié et accepté ».
+
+**Aucun formulaire de demande de compte ni recherche nominative n'est ouvert depuis cette vitrine.**
