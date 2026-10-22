@@ -7,7 +7,7 @@
 | **Recherche et classement** | Premiers composants évalués avec réserves |
 | **Comptes et sécurité** | Deux corrections ciblées acceptées avec réserves ; compatibilité testée, intégration encore à réaliser |
 | **Revue humaine et rapports** | Correctif accepté avec réserves après audit indépendant ; intégration commune non validée |
-| **Création des dossiers** | Correctifs livrés et testés ; audit indépendant à réaliser avant intégration |
+| **Création des dossiers** | Audit indépendant défavorable ; nouvelles corrections et nouvelle validation nécessaires avant intégration |
 | **Interface enquêteur** | Conception terminée ; réalisation à poursuivre |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |

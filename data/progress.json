@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Des corrections ont passé les tests du développeur, mais une revue indépendante est nécessaire avant leur intégration."
+      "description": "L'audit indépendant demande de renforcer la fiabilité de la création des dossiers et leur récupération après interruption. L'intégration reste bloquée."
     },
     {
       "code": "05 · INTERFACE",
@@ -48,8 +48,8 @@
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
-      "title": "Dossiers : correctif prêt pour audit",
-      "summary": "La création des dossiers a été renforcée, notamment pour leurs identifiants et leurs dates. Les tests du développeur sont favorables, mais l'audit indépendant reste à faire."
+      "title": "Dossiers : audit exige des corrections supplémentaires",
+      "summary": "L'audit indépendant valide plusieurs améliorations mais a identifié des problèmes de fiabilité qui bloquent l'intégration. Une nouvelle correction est nécessaire avant acceptation."
     },
     {
       "date_iso": "2026-10-22",

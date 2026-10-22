@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
 
+## 22 octobre 2026 — Dossiers : corrections supplémentaires nécessaires
+
+L'audit indépendant a vérifié plusieurs améliorations de la gestion des dossiers, mais a identifié des problèmes de fiabilité lors d'opérations interrompues ou simultanées. **La version examinée n'est pas acceptée pour l'intégration.** Une nouvelle correction et un nouvel audit sont nécessaires. Aucun accès réel n'est ouvert.
+
 ## 22 octobre 2026 — Dossiers : améliorations livrées pour audit
 
 Des corrections visent à garantir que le serveur attribue les identifiants et les dates des dossiers. Les tests du développeur sont favorables, mais **l'audit indépendant reste à réaliser**.

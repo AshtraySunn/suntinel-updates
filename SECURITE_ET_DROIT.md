@@ -16,7 +16,7 @@ L'accès au produit devra être **approuvé manuellement**. Aucun compte ne pour
 
 Les utilisateurs approuvés auront les mêmes fonctions, mais **pas automatiquement accès aux dossiers des autres**.
 
-**Avancement :** un correctif empêchant le retour en service d'anciennes connexions après désactivation d'un compte a été accepté par un audit indépendant, avec réserves. La sécurité complète des comptes, les autorisations et l'intégration restent à vérifier.
+**Avancement :** un correctif empêchant le retour en service d'anciennes connexions après désactivation d'un compte a été accepté par un audit indépendant, avec réserves. Un autre audit demande des corrections supplémentaires sur la fiabilité de la création des dossiers. La sécurité complète des comptes, les autorisations et l'intégration restent à vérifier.
 
 ## 3. Historique d'audit
 
