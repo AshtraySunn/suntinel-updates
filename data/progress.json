@@ -5,51 +5,63 @@
       "code": "01 / FONDATIONS",
       "title": "Socle d'investigation",
       "status": "done",
-      "description": "Premiers composants de recherche, de traçabilité et de restitution évalués et acceptés dans des périmètres limités, avec réserves."
+      "description": "Des composants de recherche, provenance et qualification ont été évalués et acceptés sur des périmètres limités, avec réserves."
     },
     {
-      "code": "02 / FIABILITÉ",
-      "title": "Sécurité et robustesse",
-      "status": "working",
-      "description": "Renforcement des mécanismes de sécurité, contrôles indépendants et corrections avant toute intégration."
+      "code": "02 / SÉCURITÉ",
+      "title": "Comptes et robustesse",
+      "status": "review",
+      "description": "Un nouveau candidat de correction est livré et attend un audit indépendant. D'autres contrôles restent à stabiliser."
     },
     {
       "code": "03 / PARCOURS",
-      "title": "Parcours d'investigation simulé",
-      "status": "working",
-      "description": "Correctifs du parcours de revue et des rapports livrés pour évaluation indépendante, uniquement avec des données fictives."
+      "title": "Investigation simulée et revue",
+      "status": "review",
+      "description": "Des correctifs du parcours fictif sont livrés dans une branche de développement. L'acceptation indépendante n'est pas encore acquise."
     },
     {
-      "code": "04 / EXPÉRIENCE",
-      "title": "Interface et rapports",
-      "status": "working",
-      "description": "Conception fonctionnelle documentée ; les interfaces enquêteur et rapports consolidés restent à développer et vérifier."
+      "code": "04 / CONCEPTION",
+      "title": "Expérience enquêteur et récupération",
+      "status": "designed",
+      "description": "Les futurs écrans, rapports consolidés et traitements prudents des situations incertaines sont spécifiés, pas encore livrés."
     },
     {
-      "code": "05 / QUALIFICATION",
-      "title": "Qualification avant ouverture",
+      "code": "05 / INTERFACE",
+      "title": "Écrans et rapports consolidés",
       "status": "planned",
-      "description": "Vérifications techniques, juridiques et de gouvernance distinctes, indispensables avant toute utilisation opérationnelle."
+      "description": "Rendre utilisable le parcours de revue, puis tester les rapports et exports de bout en bout."
+    },
+    {
+      "code": "06 / OUVERTURE",
+      "title": "Admission et qualification",
+      "status": "planned",
+      "description": "Vérifier la sécurité, les autorisations, les conditions juridiques et la gouvernance avant toute éventuelle ouverture."
     }
   ],
   "updates": [
     {
       "date_iso": "2026-10-22",
       "date_label": "22 OCT. 2026",
-      "title": "Parcours de test : correctifs livrés pour audit",
-      "summary": "Des améliorations de la revue humaine et du marquage des données simulées ont été livrées dans une branche de développement. Leur validation indépendante reste nécessaire."
+      "title": "Sécurité : nouveau candidat à l'audit",
+      "summary": "Une nouvelle correction du socle de sécurité a été livrée pour une vérification indépendante. Ni acceptation ni mise en service ne sont annoncées."
     },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 OCT. 2026",
-      "title": "Conception de l'expérience enquêteur documentée",
-      "summary": "Les parcours d'interface, rapports consolidés et méthodes de récupération ont fait l'objet de spécifications. Leur développement n'est pas encore validé."
+      "title": "Parcours de revue : correctifs livrés",
+      "summary": "Les décisions humaines, le signalement des données simulées et les conflits ont fait l'objet de correctifs, encore soumis à audit."
     },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 OCT. 2026",
-      "title": "Revue indépendante des comptes et dossiers",
-      "summary": "Une campagne indépendante a examiné les mécanismes de comptes, de sessions et de gestion des dossiers. Des correctifs supplémentaires ont été identifiés et priorisés."
+      "title": "Interface et rapports : conception documentée",
+      "summary": "Les futurs écrans de revue, rapports de dossier et principes de récupération conservatrice ont été spécifiés. L'implémentation reste distincte."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 OCT. 2026",
+      "title": "Comptes et dossiers : contrôle indépendant",
+      "summary": "Une revue technique a identifié des améliorations de sécurité et d'intégrité, à réaliser et valider avant ouverture."
     }
   ]
 }

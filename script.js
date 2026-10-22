@@ -8,7 +8,7 @@ const make = (tag, className, content) => {
   return node;
 };
 
-const statusLabels = { done: 'Jalon validé*', working: 'En cours', planned: 'À venir' };
+const statusLabels = { done: 'Évalué avec réserves', working: 'En cours', review: 'Livré pour audit', designed: 'Conception terminée', planned: 'À venir' };
 
 async function loadProgress() {
   const [roadmap, updates] = [$('#roadmap'), $('#updates')];

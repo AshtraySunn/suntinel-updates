@@ -4,11 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b1320">
-  <meta name="description" content="SunTinel — actualités publiques, feuille de route et avancement d'une plateforme privée d'investigation en sources ouvertes.">
+  <meta name="description" content="SunTinel : présentation d’une plateforme privée d’investigation OSINT, méthode, accès contrôlé et suivi transparent de la bêta.">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="canonical" href="https://ashtraysunn.github.io/suntinel-updates/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="SunTinel · Journal de développement">
   <meta property="og:description" content="Suivez les étapes de conception et de développement de SunTinel, une plateforme privée d'investigation OSINT.">
-  <title>SunTinel — Journal de développement</title>
+  <title>SunTinel — Projet OSINT, méthode et avancées</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script defer src="script.js"></script>
@@ -20,12 +22,14 @@
       <a class="identity" href="#accueil" aria-label="SunTinel, accueil">
         <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M27.5 9.2A12.7 12.7 0 0 0 8.4 25.3" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M9.2 17.7h17.4M9.2 23.3h13.7M12.8 12.1H27" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="27.7" cy="25.8" r="3.1" fill="currentColor"/></svg></span>
         <span class="wordmark">Sun<span>Tinel</span></span>
-        <span class="wordmark-tag">/ DEV LOG</span>
+        <span class="wordmark-tag">/ PROJET & ACTUALITÉS</span>
       </a>
       <nav class="site-nav" aria-label="Navigation principale">
         <a href="#projet">Le projet</a>
+        <a href="#methode">Méthode</a>
         <a href="#avancement">Avancement</a>
-        <a href="#journal">Journal</a>
+        <a href="#journal">Actualités</a>
+        <a href="#questions">FAQ</a>
         <a class="nav-cta" href="#acces">Accès <span aria-hidden="true">↗</span></a>
       </nav>
     </header>
@@ -35,9 +39,9 @@
         <div class="hero-content">
           <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> EN DÉVELOPPEMENT <span class="eyebrow-divider">/</span> BÊTA PRIVÉE 0.1</div>
           <h1 id="hero-title">Les sources ouvertes.<br><em>Avec méthode.</em></h1>
-          <p class="hero-intro">SunTinel est une plateforme privée conçue pour aider les enquêteurs autorisés à organiser des recherches en sources ouvertes, examiner les résultats et documenter leurs conclusions.</p>
-          <div class="hero-actions"><a class="primary-link" href="#avancement">Suivre le développement <span aria-hidden="true">↗</span></a><a class="secondary-link" href="#projet">Découvrir le projet <span aria-hidden="true">→</span></a></div>
-          <div class="hero-note"><span class="asterisk" aria-hidden="true">✳</span> Accès fermé et soumis à validation. Aucune recherche publique.</div>
+          <p class="hero-intro">SunTinel est un projet de plateforme privée d’assistance à l’investigation en sources ouvertes (OSINT). Son objectif : organiser des observations sourcées, recouper avec prudence et documenter les décisions humaines.</p>
+          <div class="hero-actions"><a class="primary-link" href="#methode">Comprendre la méthode <span aria-hidden="true">↗</span></a><a class="secondary-link" href="#avancement">Suivre les avancées <span aria-hidden="true">→</span></a></div>
+          <div class="hero-note"><span class="asterisk" aria-hidden="true">✳</span> Produit non ouvert · Tests sur données fictives · Aucune recherche publique.</div>
         </div>
         <div class="hero-art" aria-hidden="true">
           <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div>
@@ -51,30 +55,77 @@
       <section class="stats-band" aria-label="État du projet">
         <div class="stat"><span class="stat-label">PHASE ACTUELLE</span><strong>Stabilisation bêta</strong></div>
         <div class="stat"><span class="stat-label">DÉVELOPPEMENT</span><strong class="with-dot"><span class="small-dot"></span> En cours</strong></div>
-        <div class="stat"><span class="stat-label">ACCÈS AU PRODUIT</span><strong>Fermé · non ouvert</strong></div>
+        <div class="stat"><span class="stat-label">RECHERCHES RÉELLES</span><strong>Non autorisées</strong></div>
         <div class="stat"><span class="stat-label">DERNIÈRE ACTUALISATION</span><strong id="updated-date">22 octobre 2026</strong></div>
       </section>
 
       <section class="section project-section" id="projet">
-        <div class="section-heading"><span class="section-number">01 / VISION</span><h2>Un outil conçu pour<br><em>l'examen humain.</em></h2></div>
-        <div class="project-copy"><p class="lead">La recherche en sources ouvertes est une démarche d'analyse, pas une affirmation automatique d'identité.</p><p>SunTinel ambitionne de relier les observations à leur provenance, de faciliter les rapprochements prudents et d'aider à restituer les éléments sous forme de rapports compréhensibles.</p><div class="principles"><div><span class="principle-icon">01</span><span>Traçabilité des informations</span></div><div><span class="principle-icon">02</span><span>Validation et qualification humaines</span></div><div><span class="principle-icon">03</span><span>Contrôles d'accès et confidentialité</span></div></div></div>
+        <div class="section-heading"><span class="section-number">01 / LE PROJET</span><h2>Rechercher,<br>recouper,<br><em>expliquer.</em></h2></div>
+        <div class="project-copy">
+          <p class="lead">Une information trouvée en ligne n'est pas, à elle seule, une preuve d'identité.</p>
+          <p>Une recherche OSINT peut faire apparaître plusieurs profils, pages et mentions similaires. SunTinel vise à conserver le contexte : d'où vient chaque élément, pourquoi constitue-t-il une piste, qu'est-ce qui reste incertain ?</p>
+          <p>L'ambition est de réunir les observations dans un dossier, faciliter leur examen et restituer les conclusions avec leurs limites. <strong>L'outil assiste ; l'enquêteur décide.</strong></p>
+          <div class="principles"><div><span class="principle-icon">01</span><span>Provenance des informations et traçabilité</span></div><div><span class="principle-icon">02</span><span>Recoupement prudent et revue humaine</span></div><div><span class="principle-icon">03</span><span>Accès contrôlé et séparation des dossiers</span></div></div>
+        </div>
+      </section>
+
+
+      <section class="section method-section" id="methode">
+        <div class="section-top"><div><span class="section-number">02 / MÉTHODE ENVISAGÉE</span><h2>Du dossier<br>au <em>rapport.</em></h2></div><p>Un parcours destiné aux enquêteurs autorisés. <strong>C'est une vision du produit</strong>, pas la description de six fonctionnalités déjà disponibles : certaines sont encore en conception ou testées uniquement en simulation.</p></div>
+        <div class="method-grid">
+          <article class="method-card"><span class="method-index">01 / CADRER</span><h3>Créer un dossier</h3><p>Associer les travaux à une finalité et identifier les personnes autorisées à consulter le dossier.</p></article>
+          <article class="method-card"><span class="method-index">02 / PRÉPARER</span><h3>Définir la recherche</h3><p>Choisir les critères utiles, les sources et les validations préalables nécessaires.</p></article>
+          <article class="method-card"><span class="method-index">03 / DOCUMENTER</span><h3>Conserver la provenance</h3><p>Rattacher chaque observation à sa source ; aucune collecte réelle n'est actuellement autorisée.</p></article>
+          <article class="method-card"><span class="method-index">04 / RECOUPER</span><h3>Comparer prudemment</h3><p>Normaliser les observations, repérer les doublons et conserver les contradictions.</p></article>
+          <article class="method-card"><span class="method-index">05 / QUALIFIER</span><h3>Effectuer une revue humaine</h3><p>Retenir, rejeter ou laisser en attente une piste, avec justification et historique.</p></article>
+          <article class="method-card"><span class="method-index">06 / RESTITUER</span><h3>Préparer un rapport</h3><p>Exposer les sources, les limites, les décisions et les résultats sans surinterprétation.</p></article>
+        </div>
+        <div class="example-panel"><div><span class="example-kicker">EXEMPLE FICTIF</span><h3>Deux profils portent un nom similaire. Est-ce la même personne ?</h3></div><p>SunTinel ne doit pas déduire automatiquement une identité. Le produit vise à aider l'enquêteur à comparer des observations, à signaler les incertitudes et à conserver une décision motivée — même si aucune conclusion fiable n'est possible.</p></div>
+      </section>
+      <section class="section boundaries-section" id="limites">
+        <div class="section-top"><div><span class="section-number">03 / PRINCIPES</span><h2>Une aide,<br>pas une <em>boîte noire.</em></h2></div><p>Le produit cherche à rendre le travail explicable, sans se substituer au cadre légal ni à la responsabilité humaine.</p></div>
+        <div class="boundaries-grid">
+          <article class="boundary-card"><span class="boundary-label">CE QUE LE PRODUIT VISE À FAIRE</span><h3>Structurer une investigation</h3><ul><li>Centraliser des observations dans un dossier.</li><li>Conserver leur source et leur provenance.</li><li>Faciliter les rapprochements et les revues.</li><li>Restituer les informations et leurs limites.</li></ul></article>
+          <article class="boundary-card cautious"><span class="boundary-label">CE QU'IL NE DOIT PAS FAIRE</span><h3>Affirmer sans vérification</h3><ul><li>Confirmer automatiquement une identité.</li><li>Autoriser par lui-même une collecte de données.</li><li>Ouvrir des recherches nominatives au public.</li><li>Présenter une correspondance comme une certitude.</li></ul></article>
+        </div>
+        <p class="boundary-note">Projet indépendant : SunTinel n'est pas présenté comme un service officiel ou homologué d'une administration. Toute utilisation réelle dépend de ses autorisations, de sa finalité et des règles juridiques applicables.</p>
       </section>
 
       <section class="section roadmap-section" id="avancement">
-        <div class="section-top"><div><span class="section-number">02 / FEUILLE DE ROUTE</span><h2>Où en est<br><em>le projet ?</em></h2></div><p>Des jalons publiés à haut niveau. Leur statut reflète uniquement les étapes vérifiées ou les travaux déclarés en cours, sans divulguer les détails internes des audits.</p></div>
+        <div class="section-top"><div><span class="section-number">04 / FEUILLE DE ROUTE</span><h2>Où en est<br><em>le projet ?</em></h2></div><p>Des jalons publiés à haut niveau. Leur statut reflète uniquement les étapes vérifiées ou les travaux déclarés en cours, sans divulguer les détails internes des audits.</p></div>
         <div class="roadmap" id="roadmap"><div class="fallback-msg">Chargement de la feuille de route…</div></div>
-        <p class="roadmap-note">Les jalons terminés peuvent comporter des réserves. Une validation technique ne constitue pas une autorisation de déploiement.</p>
+        <p class="roadmap-note"><strong>À lire avec précision :</strong> « évalué avec réserves » concerne un périmètre limité ; « livré pour audit » n’est pas « accepté » ; « conception terminée » n’est pas « fonctionnalité disponible ». Aucun de ces statuts n’autorise des recherches réelles.</p>
       </section>
 
       <section class="section journal-section" id="journal">
-        <div class="section-top"><div><span class="section-number">03 / JOURNAL PUBLIC</span><h2>Notes de<br><em>développement.</em></h2></div><p>Les mises à jour portent sur la progression du produit, la qualité et les fonctionnalités — jamais sur les données d'enquête ou les détails exploitables de sécurité.</p></div>
+        <div class="section-top"><div><span class="section-number">05 / JOURNAL PUBLIC</span><h2>Notes de<br><em>développement.</em></h2></div><p>Les mises à jour portent sur la progression du produit, la qualité et les fonctionnalités — jamais sur les données d'enquête ou les détails exploitables de sécurité.</p></div>
         <div class="journal" id="updates"><div class="fallback-msg">Chargement des actualités…</div></div>
         <div class="journal-footer"><span>Journal public, actualisé manuellement après vérification.</span><a href="CHANGELOG.md">Voir les notes en Markdown <span aria-hidden="true">↗</span></a></div>
       </section>
 
-      <section class="access-section" id="acces"><div><span class="section-number">04 / ACCÈS</span><h2>Une plateforme<br><em>à accès contrôlé.</em></h2></div><div class="access-copy"><p>SunTinel n'est pas un moteur de recherche ouvert au public. Le produit est destiné à des professionnels ou associations d'investigation dont l'accès aura été examiné et approuvé individuellement.</p><p>La demande d'accès ne vaut pas création automatique de compte. Le développement actuel ne constitue pas une ouverture du service.</p><span class="access-tag"><span aria-hidden="true">●</span> Inscriptions libres désactivées</span></div></section>
+      <section class="access-section" id="acces">
+        <div><span class="section-number">06 / ACCÈS</span><h2>Un accès fondé<br>sur la <em>confiance.</em></h2><p class="access-status">Accès actuellement fermé : aucune inscription ni demande d'accès active depuis ce site.</p></div>
+        <div class="access-copy">
+          <p>SunTinel est conçu pour des enquêteurs professionnels ou associatifs identifiés, dans le respect de leur cadre d'intervention. Le service n'est pas destiné à la recherche libre sur des personnes.</p>
+          <ol class="admission-steps"><li><strong>Demande d'accès</strong><span>Un dispositif de candidature pourra être ouvert ultérieurement.</span></li><li><strong>Vérification humaine</strong><span>Chaque demande sera examinée et acceptée ou refusée individuellement.</span></li><li><strong>Invitation sécurisée</strong><span>Un compte utilisable ne sera activé qu'après approbation, jamais automatiquement.</span></li></ol>
+          <p>Les comptes approuvés disposeront des mêmes fonctionnalités. Les dossiers et leurs partages resteront, eux, soumis à des contrôles d'accès indépendants.</p>
+          <span class="access-tag"><span aria-hidden="true">●</span> Accès fermé · Approbation manuelle prévue</span>
+        </div>
+      </section>
+      <section class="section faq-section" id="questions">
+        <div class="section-top"><div><span class="section-number">07 / FAQ</span><h2>Les questions<br><em>essentielles.</em></h2></div><p>Réponses établies à partir du statut connu au 22 octobre 2026, à actualiser après de nouvelles validations.</p></div>
+        <div class="faq-list">
+          <details><summary>Peut-on déjà utiliser SunTinel ? <span aria-hidden="true">+</span></summary><p>Non. La bêta 0.1 reste en développement et fermée. Des composants ont été testés séparément, mais le produit complet n'est ni qualifié ni ouvert.</p></details>
+          <details><summary>Peut-on rechercher une personne sur ce site ? <span aria-hidden="true">+</span></summary><p>Non. Cette page présente uniquement le projet. Elle ne propose aucune recherche et n'expose aucune donnée d'investigation.</p></details>
+          <details><summary>Qui pourra demander un accès ? <span aria-hidden="true">+</span></summary><p>Des professionnels et structures associatives d'investigation identifiés. Chaque demande devra être examinée manuellement. Aucun formulaire n'est encore ouvert.</p></details>
+          <details><summary>Une correspondance suffit-elle à confirmer une identité ? <span aria-hidden="true">+</span></summary><p>Non. Les ressemblances de noms ou de profils sont des pistes, pas des preuves automatiques. L'origine des informations et les décisions humaines doivent rester visibles.</p></details>
+          <details><summary>Les dossiers seront-ils accessibles à tous les comptes ? <span aria-hidden="true">+</span></summary><p>Non. Le principe d'égalité des fonctionnalités entre comptes approuvés n'implique pas un accès aux dossiers d'autrui : leurs autorisations et partages restent distincts.</p></details>
+          <details><summary>Quand aura lieu l'ouverture ? <span aria-hidden="true">+</span></summary><p>Aucune date n'est annoncée. Des contrôles techniques, de sécurité, juridiques et de gouvernance restent nécessaires avant toute décision.</p></details>
+          <details><summary>Pourquoi le code n'est-il pas public ? <span aria-hidden="true">+</span></summary><p>Ce dépôt contient uniquement la vitrine et son journal. Le code d'investigation, les dossiers et les détails confidentiels des audits restent privés.</p></details>
+        </div>
+      </section>
     </main>
-    <footer class="site-footer"><a class="footer-brand" href="#accueil">Sun<span>Tinel</span><span class="footer-star">✳</span></a><span>Journal public de développement · © <span id="year">2026</span> SunTinel</span><a href="#accueil">Retour en haut ↑</a></footer>
+    <footer class="site-footer"><a class="footer-brand" href="#accueil">Sun<span>Tinel</span><span class="footer-star">✳</span></a><span>Projet indépendant · Journal public · © <span id="year">2026</span> SunTinel</span><a href="#accueil">Retour en haut ↑</a></footer>
   </div>
 </body>
 </html>
