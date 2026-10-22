@@ -28,7 +28,7 @@ Des mécanismes de suivi ont été testés. **La consultation et l'export comple
 
 Des rapports de recherche aux formats **PDF**, **texte** et **données structurées** ont été testés avec des exemples fictifs.
 
-Ils doivent permettre de retrouver les sources, les décisions humaines et les incertitudes. **Les rapports complets et certaines opérations simultanées nécessitent encore des corrections.**
+Ils doivent permettre de retrouver les sources, les décisions humaines et les incertitudes. **Une correction de cohérence des rapports a été acceptée avec réserves après audit indépendant ; les rapports complets et l'intégration avec les autres corrections restent à vérifier.**
 
 Il ne faut pas confondre l'**export d'un rapport de recherche** et l'**export d'un journal d'audit** : ce sont deux fonctions différentes.
 

@@ -2,9 +2,17 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
 
-## 22 octobre 2026 — Rapports : correctif supplémentaire à vérifier
+## 22 octobre 2026 — Dossiers : améliorations livrées pour audit
 
-Une nouvelle version a été livrée avec des tests de développement favorables sur deux types de stockage. Elle doit encore passer une **revue indépendante** ; les rapports ne sont pas déclarés prêts pour une utilisation réelle.
+Des corrections visent à garantir que le serveur attribue les identifiants et les dates des dossiers. Les tests du développeur sont favorables, mais **l'audit indépendant reste à réaliser**.
+
+## 22 octobre 2026 — Rapports : audit indépendant accepté avec réserves
+
+Un audit indépendant a confirmé l'amélioration de la cohérence des rapports et la préservation des historiques, sur le périmètre examiné. **La correction n'est pas encore intégrée avec les autres branches et ne permet aucune utilisation réelle.**
+
+## 22 octobre 2026 — Compatibilité de deux protections de sécurité vérifiée
+
+Une vérification d'intégration a confirmé la compatibilité de deux corrections de sécurité déjà acceptées avec réserves. **Aucune fusion ni mise en service n'a été réalisée.**
 
 ## 22 octobre 2026 — Connexions : audit indépendant accepté avec réserves
 

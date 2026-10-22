@@ -11,28 +11,34 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Deux corrections ciblées de sécurité ont été acceptées après des audits indépendants, avec réserves. Les autres contrôles restent en cours."
+      "description": "Deux protections ciblées ont été acceptées avec réserves. Leur compatibilité a été testée ; l'intégration et les autres contrôles restent à faire."
     },
     {
       "code": "03 · RAPPORTS",
       "title": "Revue et rapports de recherche",
       "status": "working",
-      "description": "Un nouveau correctif a passé les tests du développeur. Un audit indépendant doit encore confirmer sa fiabilité avant toute intégration."
+      "description": "Une correction des rapports a été acceptée avec réserves après audit indépendant. Son intégration avec les autres travaux reste à tester."
     },
     {
-      "code": "04 · INTERFACE",
+      "code": "04 · DOSSIERS",
+      "title": "Création et intégrité des dossiers",
+      "status": "working",
+      "description": "Des corrections ont passé les tests du développeur, mais une revue indépendante est nécessaire avant leur intégration."
+    },
+    {
+      "code": "05 · INTERFACE",
       "title": "Écrans pour les enquêteurs",
       "status": "planned",
       "description": "La conception est rédigée. Les écrans et les rapports complets restent à développer."
     },
     {
-      "code": "05 · CONFIDENTIALITÉ",
+      "code": "06 · CONFIDENTIALITÉ",
       "title": "Chiffrement et conservation",
       "status": "planned",
       "description": "La protection des sauvegardes, les durées de conservation et les exports d'audit restent à qualifier."
     },
     {
-      "code": "06 · OUVERTURE",
+      "code": "07 · OUVERTURE",
       "title": "Accès après validation",
       "status": "planned",
       "description": "L'ouverture dépend de contrôles de sécurité et de décisions juridiques. Aucune date annoncée."
@@ -42,38 +48,32 @@
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
+      "title": "Dossiers : correctif prêt pour audit",
+      "summary": "La création des dossiers a été renforcée, notamment pour leurs identifiants et leurs dates. Les tests du développeur sont favorables, mais l'audit indépendant reste à faire."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 oct. 2026",
+      "title": "Rapports : correction acceptée avec réserves",
+      "summary": "Un audit indépendant confirme une meilleure cohérence des rapports, sur des essais fictifs. L'intégration avec les autres corrections doit encore être validée."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 oct. 2026",
+      "title": "Sécurité : compatibilité des corrections vérifiée",
+      "summary": "Deux améliorations de sécurité déjà acceptées ont été testées ensemble avec succès. Aucune fusion ni mise en service n'a été réalisée."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 oct. 2026",
       "title": "Connexions : sécurité renforcée et audit validé avec réserves",
       "summary": "Un audit indépendant confirme qu'un ancien accès ne redevient pas valable après la désactivation puis la réactivation d'un compte. Cette avancée reste limitée à la gestion des sessions : le produit n'est pas encore ouvert."
     },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
-      "title": "Rapports : nouvelle version prête pour vérification",
-      "summary": "Une amélioration supplémentaire vise à garantir qu'un rapport tient compte de la dernière décision enregistrée. Les tests du développeur sont favorables, mais la vérification indépendante reste à faire."
-    },
-    {
-      "date_iso": "2026-10-22",
-      "date_label": "22 oct. 2026",
-      "title": "Rapports : nouvelle correction nécessaire",
-      "summary": "L'audit indépendant confirme des progrès, mais relève un dernier problème de cohérence. Le candidat actuel n'est pas accepté et sera corrigé."
-    },
-    {
-      "date_iso": "2026-10-22",
-      "date_label": "22 oct. 2026",
       "title": "Sécurité : une correction vérifiée",
       "summary": "Une correction ciblée a passé un audit indépendant, avec réserves. Cela ne valide pas toute la plateforme."
-    },
-    {
-      "date_iso": "2026-10-22",
-      "date_label": "22 oct. 2026",
-      "title": "Rapports : encore des améliorations",
-      "summary": "Une vérification indépendante confirme des progrès, mais demande de corriger deux problèmes avant l'intégration."
-    },
-    {
-      "date_iso": "2026-10-22",
-      "date_label": "22 oct. 2026",
-      "title": "Parcours enquêteur : conception prête",
-      "summary": "Les futurs écrans, les rapports complets et le traitement des recherches incertaines sont décrits. Ils ne sont pas encore disponibles."
     }
   ]
 }
