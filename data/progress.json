@@ -10,14 +10,14 @@
     {
       "code": "02 / SÉCURITÉ",
       "title": "Comptes et robustesse",
-      "status": "review",
-      "description": "Un nouveau candidat de correction est livré et attend un audit indépendant. D'autres contrôles restent à stabiliser."
+      "status": "working",
+      "description": "Un correctif ciblé de sécurité a passé un audit indépendant avec réserves. D'autres protections des comptes, sessions et sauvegardes restent à finaliser."
     },
     {
       "code": "03 / PARCOURS",
       "title": "Investigation simulée et revue",
-      "status": "review",
-      "description": "Des correctifs du parcours fictif sont livrés dans une branche de développement. L'acceptation indépendante n'est pas encore acquise."
+      "status": "working",
+      "description": "La revue indépendante confirme des progrès, mais la gestion des rapports nécessite un nouveau correctif avant toute intégration."
     },
     {
       "code": "04 / CONCEPTION",
@@ -42,14 +42,14 @@
     {
       "date_iso": "2026-10-22",
       "date_label": "22 OCT. 2026",
-      "title": "Sécurité : nouveau candidat à l'audit",
-      "summary": "Une nouvelle correction du socle de sécurité a été livrée pour une vérification indépendante. Ni acceptation ni mise en service ne sont annoncées."
+      "title": "Sécurité : une étape validée avec réserves",
+      "summary": "Un correctif du socle de sécurité a réussi son contrôle indépendant dans un périmètre précis. D'autres vérifications restent nécessaires avant d'envisager l'utilisation du produit."
     },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 OCT. 2026",
-      "title": "Parcours de revue : correctifs livrés",
-      "summary": "Les décisions humaines, le signalement des données simulées et les conflits ont fait l'objet de correctifs, encore soumis à audit."
+      "title": "Rapports : nouvelles améliorations à réaliser",
+      "summary": "La revue indépendante du parcours d'investigation a confirmé plusieurs progrès, tout en identifiant des points à corriger dans la restitution des rapports. Cette version n'est pas encore acceptée."
     },
     {
       "date_iso": "2026-10-22",

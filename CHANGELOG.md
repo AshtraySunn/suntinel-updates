@@ -6,13 +6,13 @@ Le journal explique ce qui avance, **sans publier de données personnelles, de f
 
 La vitrine explique désormais les recherches envisagées (nom, pseudonyme, entreprise et autres indices), la différence entre SunTinel et les outils externes, ainsi que les principes de chiffrement, d'accès privé, d'audit, d'export et de respect du droit. Il s'agit d'informations sur le projet, pas d'une annonce de disponibilité.
 
-## 22 octobre 2026 — Renforcement de la sécurité
+## 22 octobre 2026 — Sécurité : audit indépendant favorable sur un correctif ciblé
 
-Un correctif supplémentaire du socle technique a été livré pour audit indépendant. Sa validation définitive reste attendue.
+Un correctif de sécurité a été accepté après vérification indépendante, avec réserves. Cette validation concerne seulement une partie du logiciel. Elle n'autorise ni utilisation réelle ni déploiement.
 
-## 22 octobre 2026 — Parcours d'investigation fictif
+## 22 octobre 2026 — Parcours fictif : progrès confirmés, rapports encore à corriger
 
-Des améliorations de revue humaine, de restitution et de signalement des données simulées ont été livrées pour vérification indépendante.
+La vérification indépendante confirme plusieurs améliorations, notamment pour la revue humaine et le signalement des données fictives. Elle demande néanmoins de corriger la production et l'actualisation des rapports avant acceptation.
 
 ## 22 octobre 2026 — Conception des futurs écrans
 

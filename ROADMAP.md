@@ -5,11 +5,11 @@
 | Étape | État |
 | --- | --- |
 | Dossiers, provenance et traitement de résultats | Composants testés et acceptés dans des périmètres limités, avec réserves |
-| Renforcement des comptes, accès et sauvegardes | Correctifs en cours de vérification |
+| Renforcement des comptes, accès et sauvegardes | Un correctif ciblé accepté après audit indépendant, avec réserves ; d'autres protections restent à consolider |
 | Recherche par nom et pseudonyme | Parcours et outils travaillés sur scénarios fictifs |
 | Recherche d'entreprises | Connecteur à une source publique étudié |
 | Recherche par e-mail, téléphone, photo ou autres indices | À étudier et qualifier avant toute intégration |
-| Écrans de revue et rapports complets | Conception engagée ; développement à poursuivre |
+| Écrans de revue et rapports complets | Correctifs de revue partiellement vérifiés ; cohérence des rapports encore à corriger, interface toujours en conception |
 | Chiffrement du stockage et des sauvegardes | Exigence de protection à vérifier et qualifier |
 | Audit et exports | Journaux et exports de rapports testés partiellement ; export complet d'audit à qualifier |
 | Conservation, législation et admissions | Décisions et validations encore nécessaires |

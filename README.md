@@ -71,7 +71,7 @@ Aucun formulaire d'inscription n'est actuellement ouvert.
 - [FAQ](FAQ.md) : réponses en langage simple.
 - [Sécurité et droit](SECURITE_ET_DROIT.md) : protections, limites et sources officielles.
 
-Un correctif « livré pour audit » n'est pas encore « accepté ». Un test réussi ne donne pas l'autorisation de déployer ou d'effectuer des recherches réelles.
+**Point d'étape :** un correctif de sécurité ciblé a été accepté après audit indépendant avec réserves. En revanche, le dernier parcours de revue doit encore être corrigé sur ses rapports. Une acceptation partielle ne donne jamais l'autorisation de déployer ou d'effectuer des recherches réelles.
 
 ## À propos de ce dépôt
 
