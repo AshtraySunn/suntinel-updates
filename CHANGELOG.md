@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
 
+## 22 octobre 2026 — Rapports : nouveau correctif en attente d'audit
+
+Une nouvelle correction vise à rendre les téléchargements plus fiables et à éviter les copies inutiles d'un même rapport. Les tests du développeur sont favorables, mais **la correction n'est pas encore acceptée par un audit indépendant**. La plateforme reste fermée.
+
 ## 22 octobre 2026 — Sécurité : une correction vérifiée
 
 Une correction ciblée a été acceptée après un audit indépendant, **avec réserves**. D'autres protections restent à compléter avant toute utilisation réelle.

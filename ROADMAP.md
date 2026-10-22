@@ -6,7 +6,7 @@
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
 | **Comptes et sécurité** | Une correction ciblée acceptée avec réserves ; autres travaux en cours |
-| **Revue humaine et rapports** | Améliorations vérifiées, défauts restants à corriger |
+| **Revue humaine et rapports** | Nouveau correctif livré et testé par le développeur ; audit indépendant encore nécessaire |
 | **Interface enquêteur** | Conception terminée ; réalisation à poursuivre |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |
