@@ -40,3 +40,34 @@
 @media(max-width:1100px){.site-nav{gap:20px}.method-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:700px){.site-nav{justify-content:flex-start;gap:13px 18px;flex-wrap:wrap}.method-grid,.boundaries-grid,.example-panel{grid-template-columns:1fr}.method-card{min-height:0}.example-panel{padding:26px}.boundary-card{padding:27px 22px}.faq-list summary{font-size:14px;padding:22px 0}.faq-list details p{padding-right:0}.site-footer{flex-wrap:wrap}}
 @media(prefers-reduced-motion:reduce){.faq-list summary span{transition:none}}
+
+/* Informations produit et protection — langage public, simple. */
+.discovery-section,.tools-section,.protection-section,.legal-section{border-bottom:1px solid var(--line)}
+.discovery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.discovery-card,.protect-card{padding:25px 25px 23px;background:#112130;border:1px solid #314a47;border-radius:8px}
+.discovery-icon{width:37px;height:37px;border-radius:10px;display:flex;align-items:center;justify-content:center;border:1px solid #537a6d;background:#17372f;color:var(--accent);font-weight:700}
+.discovery-card h3,.protect-card h3{font-size:19px;line-height:1.35;font-weight:610;letter-spacing:-.025em;margin:20px 0 10px}
+.discovery-card p,.protect-card p{font-size:13px;line-height:1.75;color:#b8cbc4;margin:0 0 15px}
+.discovery-state{display:inline-block;font:600 10px/1.5 ui-monospace,Consolas,monospace;letter-spacing:.3px;color:#b9e8d5}
+.discovery-card .discovery-state{padding-top:12px;border-top:1px solid #34514b;width:100%}
+.tools-layout,.legal-content{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.tools-built,.tools-external,.legal-commitment{border:1px solid #39534e;border-radius:8px;padding:30px;background:#11282d}
+.tools-built{background:radial-gradient(circle at 10% 10%,rgba(126,214,188,.12),transparent 65%),#11282d}
+.tools-built h3,.tools-external h3,.legal-content h3{font-size:23px;font-weight:620;letter-spacing:-.035em;margin:18px 0}
+.tools-built p,.tools-external p,.legal-content p{font-size:14px;line-height:1.78;color:#bfcec8}
+.tools-note{color:#94a9a2!important;font-size:12px!important}
+.external-tool{display:flex;flex-direction:column;gap:6px;padding:13px 0;border-top:1px solid #344b49}
+.external-tool strong{font-size:14px;font-weight:650;color:#e0ede7}
+.external-tool span{font-size:12px;line-height:1.7;color:#afc1b9}
+.protection-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.protect-label{font:600 10px ui-monospace,Consolas,monospace;letter-spacing:1.4px;color:var(--accent)}
+.protect-card h3{margin-top:15px}
+.protect-card p{margin-bottom:0}
+.protect-card strong{color:#ebf3ed;font-weight:620}
+.legal-content{align-items:start;gap:70px}
+.legal-content>div:first-child p{max-width:550px}
+.legal-commitment p{margin-top:12px}
+.legal-sources a{color:var(--accent);text-underline-offset:3px}
+.legal-commitment strong{color:#eaf4eb}
+@media(max-width:1100px){.discovery-grid,.protection-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.discovery-grid,.protection-grid,.tools-layout,.legal-content{grid-template-columns:1fr}.legal-content{gap:18px}.tools-built,.tools-external,.legal-commitment{padding:24px}.discovery-card,.protect-card{padding:23px}.site-nav{row-gap:13px}}
