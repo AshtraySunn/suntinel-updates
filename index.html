@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1320">
+  <meta name="description" content="SunTinel — actualités publiques, feuille de route et avancement d'une plateforme privée d'investigation en sources ouvertes.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SunTinel · Journal de développement">
+  <meta property="og:description" content="Suivez les étapes de conception et de développement de SunTinel, une plateforme privée d'investigation OSINT.">
+  <title>SunTinel — Journal de développement</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Passer au contenu</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="identity" href="#accueil" aria-label="SunTinel, accueil">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36" fill="none"><path d="M27.5 9.2A12.7 12.7 0 0 0 8.4 25.3" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M9.2 17.7h17.4M9.2 23.3h13.7M12.8 12.1H27" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="27.7" cy="25.8" r="3.1" fill="currentColor"/></svg></span>
+        <span class="wordmark">Sun<span>Tinel</span></span>
+        <span class="wordmark-tag">/ DEV LOG</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#projet">Le projet</a>
+        <a href="#avancement">Avancement</a>
+        <a href="#journal">Journal</a>
+        <a class="nav-cta" href="#acces">Accès <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="accueil" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <div class="eyebrow"><span class="live-dot" aria-hidden="true"></span> EN DÉVELOPPEMENT <span class="eyebrow-divider">/</span> BÊTA PRIVÉE 0.1</div>
+          <h1 id="hero-title">Les sources ouvertes.<br><em>Avec méthode.</em></h1>
+          <p class="hero-intro">SunTinel est une plateforme privée conçue pour aider les enquêteurs autorisés à organiser des recherches en sources ouvertes, examiner les résultats et documenter leurs conclusions.</p>
+          <div class="hero-actions"><a class="primary-link" href="#avancement">Suivre le développement <span aria-hidden="true">↗</span></a><a class="secondary-link" href="#projet">Découvrir le projet <span aria-hidden="true">→</span></a></div>
+          <div class="hero-note"><span class="asterisk" aria-hidden="true">✳</span> Accès fermé et soumis à validation. Aucune recherche publique.</div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div>
+          <div class="radial-grid"></div>
+          <div class="art-core"><span class="core-outline"></span><span class="core-letter">S</span></div>
+          <span class="art-coordinate coord-one">SOURCE / TRACE</span><span class="art-coordinate coord-two">OBSERVE / VERIFY</span><span class="art-coordinate coord-three">ST · 0.1</span>
+          <span class="art-point p1"></span><span class="art-point p2"></span><span class="art-point p3"></span>
+        </div>
+      </section>
+
+      <section class="stats-band" aria-label="État du projet">
+        <div class="stat"><span class="stat-label">PHASE ACTUELLE</span><strong>Stabilisation bêta</strong></div>
+        <div class="stat"><span class="stat-label">DÉVELOPPEMENT</span><strong class="with-dot"><span class="small-dot"></span> En cours</strong></div>
+        <div class="stat"><span class="stat-label">ACCÈS AU PRODUIT</span><strong>Fermé · non ouvert</strong></div>
+        <div class="stat"><span class="stat-label">DERNIÈRE ACTUALISATION</span><strong id="updated-date">22 octobre 2026</strong></div>
+      </section>
+
+      <section class="section project-section" id="projet">
+        <div class="section-heading"><span class="section-number">01 / VISION</span><h2>Un outil conçu pour<br><em>l'examen humain.</em></h2></div>
+        <div class="project-copy"><p class="lead">La recherche en sources ouvertes est une démarche d'analyse, pas une affirmation automatique d'identité.</p><p>SunTinel ambitionne de relier les observations à leur provenance, de faciliter les rapprochements prudents et d'aider à restituer les éléments sous forme de rapports compréhensibles.</p><div class="principles"><div><span class="principle-icon">01</span><span>Traçabilité des informations</span></div><div><span class="principle-icon">02</span><span>Validation et qualification humaines</span></div><div><span class="principle-icon">03</span><span>Contrôles d'accès et confidentialité</span></div></div></div>
+      </section>
+
+      <section class="section roadmap-section" id="avancement">
+        <div class="section-top"><div><span class="section-number">02 / FEUILLE DE ROUTE</span><h2>Où en est<br><em>le projet ?</em></h2></div><p>Des jalons publiés à haut niveau. Leur statut reflète uniquement les étapes vérifiées ou les travaux déclarés en cours, sans divulguer les détails internes des audits.</p></div>
+        <div class="roadmap" id="roadmap"><div class="fallback-msg">Chargement de la feuille de route…</div></div>
+        <p class="roadmap-note">Les jalons terminés peuvent comporter des réserves. Une validation technique ne constitue pas une autorisation de déploiement.</p>
+      </section>
+
+      <section class="section journal-section" id="journal">
+        <div class="section-top"><div><span class="section-number">03 / JOURNAL PUBLIC</span><h2>Notes de<br><em>développement.</em></h2></div><p>Les mises à jour portent sur la progression du produit, la qualité et les fonctionnalités — jamais sur les données d'enquête ou les détails exploitables de sécurité.</p></div>
+        <div class="journal" id="updates"><div class="fallback-msg">Chargement des actualités…</div></div>
+        <div class="journal-footer"><span>Journal public, actualisé manuellement après vérification.</span><a href="CHANGELOG.md">Voir les notes en Markdown <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="access-section" id="acces"><div><span class="section-number">04 / ACCÈS</span><h2>Une plateforme<br><em>à accès contrôlé.</em></h2></div><div class="access-copy"><p>SunTinel n'est pas un moteur de recherche ouvert au public. Le produit est destiné à des professionnels ou associations d'investigation dont l'accès aura été examiné et approuvé individuellement.</p><p>La demande d'accès ne vaut pas création automatique de compte. Le développement actuel ne constitue pas une ouverture du service.</p><span class="access-tag"><span aria-hidden="true">●</span> Inscriptions libres désactivées</span></div></section>
+    </main>
+    <footer class="site-footer"><a class="footer-brand" href="#accueil">Sun<span>Tinel</span><span class="footer-star">✳</span></a><span>Journal public de développement · © <span id="year">2026</span> SunTinel</span><a href="#accueil">Retour en haut ↑</a></footer>
+  </div>
+</body>
+</html>

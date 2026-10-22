@@ -1,0 +1,55 @@
+{
+  "updated_label": "22 octobre 2026",
+  "milestones": [
+    {
+      "code": "01 / FONDATIONS",
+      "title": "Socle d'investigation",
+      "status": "done",
+      "description": "Premiers composants de recherche, de traçabilité et de restitution évalués et acceptés dans des périmètres limités, avec réserves."
+    },
+    {
+      "code": "02 / FIABILITÉ",
+      "title": "Sécurité et robustesse",
+      "status": "working",
+      "description": "Renforcement des mécanismes de sécurité, contrôles indépendants et corrections avant toute intégration."
+    },
+    {
+      "code": "03 / PARCOURS",
+      "title": "Parcours d'investigation simulé",
+      "status": "working",
+      "description": "Correctifs du parcours de revue et des rapports livrés pour évaluation indépendante, uniquement avec des données fictives."
+    },
+    {
+      "code": "04 / EXPÉRIENCE",
+      "title": "Interface et rapports",
+      "status": "working",
+      "description": "Conception fonctionnelle documentée ; les interfaces enquêteur et rapports consolidés restent à développer et vérifier."
+    },
+    {
+      "code": "05 / QUALIFICATION",
+      "title": "Qualification avant ouverture",
+      "status": "planned",
+      "description": "Vérifications techniques, juridiques et de gouvernance distinctes, indispensables avant toute utilisation opérationnelle."
+    }
+  ],
+  "updates": [
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 OCT. 2026",
+      "title": "Parcours de test : correctifs livrés pour audit",
+      "summary": "Des améliorations de la revue humaine et du marquage des données simulées ont été livrées dans une branche de développement. Leur validation indépendante reste nécessaire."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 OCT. 2026",
+      "title": "Conception de l'expérience enquêteur documentée",
+      "summary": "Les parcours d'interface, rapports consolidés et méthodes de récupération ont fait l'objet de spécifications. Leur développement n'est pas encore validé."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 OCT. 2026",
+      "title": "Revue indépendante des comptes et dossiers",
+      "summary": "Une campagne indépendante a examiné les mécanismes de comptes, de sessions et de gestion des dossiers. Des correctifs supplémentaires ont été identifiés et priorisés."
+    }
+  ]
+}
