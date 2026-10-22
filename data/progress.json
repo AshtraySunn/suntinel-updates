@@ -2,66 +2,60 @@
   "updated_label": "22 octobre 2026",
   "milestones": [
     {
-      "code": "01 / FONDATIONS",
-      "title": "Socle d'investigation",
+      "code": "01 · SOCLE",
+      "title": "Premiers composants OSINT",
       "status": "done",
-      "description": "Des composants de recherche, provenance et qualification ont été évalués et acceptés sur des périmètres limités, avec réserves."
+      "description": "Des parties du moteur de recherche et de classement ont été évaluées, avec réserves."
     },
     {
-      "code": "02 / SÉCURITÉ",
-      "title": "Comptes et robustesse",
+      "code": "02 · SÉCURITÉ",
+      "title": "Protection des comptes",
       "status": "working",
-      "description": "Un correctif ciblé de sécurité a passé un audit indépendant avec réserves. D'autres protections des comptes, sessions et sauvegardes restent à finaliser."
+      "description": "Une correction ciblée a été acceptée après audit. D'autres protections restent à compléter."
     },
     {
-      "code": "03 / PARCOURS",
-      "title": "Investigation simulée et revue",
+      "code": "03 · RAPPORTS",
+      "title": "Revue et rapports de recherche",
       "status": "working",
-      "description": "La revue indépendante confirme des progrès, mais la gestion des rapports nécessite un nouveau correctif avant toute intégration."
+      "description": "Des améliorations ont été vérifiées, mais certains défauts de rapports restent à corriger."
     },
     {
-      "code": "04 / CONCEPTION",
-      "title": "Expérience enquêteur et récupération",
-      "status": "designed",
-      "description": "Les futurs écrans, rapports consolidés et traitements prudents des situations incertaines sont spécifiés, pas encore livrés."
-    },
-    {
-      "code": "05 / INTERFACE",
-      "title": "Écrans et rapports consolidés",
+      "code": "04 · INTERFACE",
+      "title": "Écrans pour les enquêteurs",
       "status": "planned",
-      "description": "Rendre utilisable le parcours de revue, puis tester les rapports et exports de bout en bout."
+      "description": "La conception est rédigée. Les écrans et les rapports complets restent à développer."
     },
     {
-      "code": "06 / OUVERTURE",
-      "title": "Admission et qualification",
+      "code": "05 · CONFIDENTIALITÉ",
+      "title": "Chiffrement et conservation",
       "status": "planned",
-      "description": "Vérifier la sécurité, les autorisations, les conditions juridiques et la gouvernance avant toute éventuelle ouverture."
+      "description": "La protection des sauvegardes, les durées de conservation et les exports d'audit restent à qualifier."
+    },
+    {
+      "code": "06 · OUVERTURE",
+      "title": "Accès après validation",
+      "status": "planned",
+      "description": "L'ouverture dépend de contrôles de sécurité et de décisions juridiques. Aucune date annoncée."
     }
   ],
   "updates": [
     {
       "date_iso": "2026-10-22",
-      "date_label": "22 OCT. 2026",
-      "title": "Sécurité : une étape validée avec réserves",
-      "summary": "Un correctif du socle de sécurité a réussi son contrôle indépendant dans un périmètre précis. D'autres vérifications restent nécessaires avant d'envisager l'utilisation du produit."
+      "date_label": "22 oct. 2026",
+      "title": "Sécurité : une correction vérifiée",
+      "summary": "Une correction ciblée a passé un audit indépendant, avec réserves. Cela ne valide pas toute la plateforme."
     },
     {
       "date_iso": "2026-10-22",
-      "date_label": "22 OCT. 2026",
-      "title": "Rapports : nouvelles améliorations à réaliser",
-      "summary": "La revue indépendante du parcours d'investigation a confirmé plusieurs progrès, tout en identifiant des points à corriger dans la restitution des rapports. Cette version n'est pas encore acceptée."
+      "date_label": "22 oct. 2026",
+      "title": "Rapports : encore des améliorations",
+      "summary": "Une vérification indépendante confirme des progrès, mais demande de corriger deux problèmes avant l'intégration."
     },
     {
       "date_iso": "2026-10-22",
-      "date_label": "22 OCT. 2026",
-      "title": "Interface et rapports : conception documentée",
-      "summary": "Les futurs écrans de revue, rapports de dossier et principes de récupération conservatrice ont été spécifiés. L'implémentation reste distincte."
-    },
-    {
-      "date_iso": "2026-10-22",
-      "date_label": "22 OCT. 2026",
-      "title": "Comptes et dossiers : contrôle indépendant",
-      "summary": "Une revue technique a identifié des améliorations de sécurité et d'intégrité, à réaliser et valider avant ouverture."
+      "date_label": "22 oct. 2026",
+      "title": "Parcours enquêteur : conception prête",
+      "summary": "Les futurs écrans, les rapports complets et le traitement des recherches incertaines sont décrits. Ils ne sont pas encore disponibles."
     }
   ]
 }

@@ -1,46 +1,60 @@
 'use strict';
 
-const $ = (selector) => document.querySelector(selector);
-const make = (tag, className, content) => {
+// Contenu public : texte uniquement. Aucune donnée personnelle ou recherche.
+const select = (query) => document.querySelector(query);
+const element = (tag, className, content) => {
   const node = document.createElement(tag);
   if (className) node.className = className;
-  if (content !== undefined) node.textContent = content;
+  if (content !== undefined) node.textContent = String(content);
   return node;
 };
 
-const statusLabels = { done: 'Évalué avec réserves', working: 'En cours', review: 'Livré pour audit', designed: 'Conception terminée', planned: 'À venir' };
+const statusLabels = {
+  done: 'Évalué avec réserves',
+  working: 'En cours',
+  planned: 'Prévu'
+};
 
-async function loadProgress() {
-  const [roadmap, updates] = [$('#roadmap'), $('#updates')];
+async function loadNews() {
+  const milestones = select('#jalons');
+  const updates = select('#actualites');
+
   try {
     const response = await fetch('data/progress.json', { cache: 'no-cache' });
-    if (!response.ok) throw new Error('HTTP ' + response.status);
+    if (!response.ok) throw new Error('Progress data unavailable');
     const data = await response.json();
-    if (!Array.isArray(data.milestones) || !Array.isArray(data.updates)) throw new Error('Données manquantes');
-    $('#updated-date').textContent = String(data.updated_label || '22 octobre 2026');
-    roadmap.replaceChildren();
-    for (const item of data.milestones) {
+
+    if (!Array.isArray(data.milestones) || !Array.isArray(data.updates)) {
+      throw new Error('Invalid progress data');
+    }
+    select('#date-maj').textContent = String(data.updated_label || '22 octobre 2026');
+
+    const milestoneNodes = data.milestones.map(item => {
       const state = Object.hasOwn(statusLabels, item.status) ? item.status : 'planned';
-      const card = make('article', 'roadmap-card');
-      const head = make('div', 'roadmap-head');
-      head.append(make('span', 'roadmap-id', String(item.code)), make('span', 'status ' + state, statusLabels[state]));
-      card.append(head, make('h3', '', String(item.title)), make('p', '', String(item.description)));
-      roadmap.append(card);
-    }
-    updates.replaceChildren();
-    for (const item of data.updates) {
-      const row = make('article', 'update-row');
-      const date = make('time', 'update-date', String(item.date_label));
+      const card = element('article', 'roadmap-card');
+      const top = element('div', 'roadmap-top');
+      top.append(
+        element('span', 'roadmap-code', item.code),
+        element('span', 'roadmap-status ' + state, statusLabels[state])
+      );
+      card.append(top, element('h3', '', item.title), element('p', '', item.description));
+      return card;
+    });
+
+    const updateNodes = data.updates.map(item => {
+      const row = element('article', 'update-row');
+      const date = element('time', '', item.date_label);
       if (item.date_iso) date.dateTime = String(item.date_iso);
-      row.append(date, make('h3', '', String(item.title)), make('p', '', String(item.summary)));
-      updates.append(row);
-    }
-  } catch (error) {
-    const message = 'Les mises à jour ne sont pas accessibles actuellement. Consultez le journal Markdown du dépôt.';
-    roadmap.replaceChildren(make('div', 'load-error', message));
-    updates.replaceChildren(make('div', 'load-error', message));
+      row.append(date, element('h3', '', item.title), element('p', '', item.summary));
+      return row;
+    });
+
+    milestones.replaceChildren(...milestoneNodes);
+    updates.replaceChildren(...updateNodes);
+  } catch (_error) {
+    // Les liens HTML vers ROADMAP.md et CHANGELOG.md restent utilisables sans JS.
   }
 }
 
-$('#year').textContent = String(new Date().getFullYear());
-loadProgress();
+select('#annee').textContent = String(new Date().getFullYear());
+loadNews();
