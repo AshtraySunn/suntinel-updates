@@ -5,7 +5,7 @@
 | Sujet | Où en sommes-nous ? |
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
-| **Comptes et sécurité** | Une correction acceptée avec réserves ; une autre protection des connexions livrée, en attente d'audit indépendant |
+| **Comptes et sécurité** | Deux corrections ciblées acceptées avec réserves après audits indépendants ; le reste de la sécurité doit encore être vérifié |
 | **Revue humaine et rapports** | Nouvelle correction testée par le développeur ; audit indépendant encore nécessaire avant acceptation |
 | **Interface enquêteur** | Conception terminée ; réalisation à poursuivre |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |

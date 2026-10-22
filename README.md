@@ -44,7 +44,7 @@ La présence d'une information sur Internet ne suffit pas à autoriser sa collec
 
 - **Des premiers composants ont été évalués**, avec réserves.
 - **Une correction de sécurité ciblée a été acceptée** après audit indépendant, avec notes.
-- **Une nouvelle protection des connexions attend son audit indépendant.**
+- **La révocation des anciennes sessions a été acceptée par un audit indépendant, avec réserves**, sur les deux modes de stockage testés. Cela ne vaut pas validation de toute la sécurité.
 - **Une nouvelle correction des rapports attend sa vérification indépendante** après un audit précédent défavorable.
 - **L'interface complète et l'accès sur validation restent à développer.**
 

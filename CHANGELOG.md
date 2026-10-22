@@ -6,9 +6,9 @@
 
 Une nouvelle version a été livrée avec des tests de développement favorables sur deux types de stockage. Elle doit encore passer une **revue indépendante** ; les rapports ne sont pas déclarés prêts pour une utilisation réelle.
 
-## 22 octobre 2026 — Comptes : nouvelle protection candidate
+## 22 octobre 2026 — Connexions : audit indépendant accepté avec réserves
 
-Une amélioration destinée à invalider les anciennes sessions après désactivation d'un compte a été livrée et testée par son développeur. **Elle attend une vérification indépendante.**
+Une vérification indépendante a confirmé qu'un ancien accès reste refusé après la désactivation puis la réactivation du compte. Les vérifications sur deux modes de stockage et les scénarios de concurrence sont favorables. **Cette acceptation est limitée à cette protection : elle ne signifie ni intégration ni ouverture du service.** Une remarque mineure sur la présentation de certaines erreurs techniques reste à traiter ultérieurement.
 
 ## 22 octobre 2026 — Rapports : l'audit demande encore une correction
 

@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Une correction de sécurité a été acceptée avec réserves. Une autre, concernant les connexions, a réussi les tests du développeur et attend un audit indépendant."
+      "description": "Deux corrections ciblées de sécurité ont été acceptées après des audits indépendants, avec réserves. Les autres contrôles restent en cours."
     },
     {
       "code": "03 · RAPPORTS",
@@ -42,14 +42,14 @@
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
-      "title": "Rapports : nouvelle version prête pour vérification",
-      "summary": "Une amélioration supplémentaire vise à garantir qu'un rapport tient compte de la dernière décision enregistrée. Les tests du développeur sont favorables, mais la vérification indépendante reste à faire."
+      "title": "Connexions : sécurité renforcée et audit validé avec réserves",
+      "summary": "Un audit indépendant confirme qu'un ancien accès ne redevient pas valable après la désactivation puis la réactivation d'un compte. Cette avancée reste limitée à la gestion des sessions : le produit n'est pas encore ouvert."
     },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
-      "title": "Connexions : correction en attente d'audit",
-      "summary": "Une amélioration vise à empêcher l'utilisation d'anciennes sessions après la désactivation d'un compte. Les tests du développeur sont positifs, mais la validation indépendante reste à faire."
+      "title": "Rapports : nouvelle version prête pour vérification",
+      "summary": "Une amélioration supplémentaire vise à garantir qu'un rapport tient compte de la dernière décision enregistrée. Les tests du développeur sont favorables, mais la vérification indépendante reste à faire."
     },
     {
       "date_iso": "2026-10-22",
