@@ -1,0 +1,16 @@
+name: Vérifier la vitrine publique
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Vérifier les pages et documents
+        run: python3 scripts/check_site.py
+      - name: Vérifier le JavaScript
+        run: node --check script.js
