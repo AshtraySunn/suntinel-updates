@@ -2,9 +2,13 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
 
-## 22 octobre 2026 — Rapports : nouveau correctif en attente d'audit
+## 22 octobre 2026 — Comptes : nouvelle protection candidate
 
-Une nouvelle correction vise à rendre les téléchargements plus fiables et à éviter les copies inutiles d'un même rapport. Les tests du développeur sont favorables, mais **la correction n'est pas encore acceptée par un audit indépendant**. La plateforme reste fermée.
+Une amélioration destinée à invalider les anciennes sessions après désactivation d'un compte a été livrée et testée par son développeur. **Elle attend une vérification indépendante.**
+
+## 22 octobre 2026 — Rapports : l'audit demande encore une correction
+
+Les premiers défauts de téléchargement ont été corrigés selon l'audit. Il subsiste cependant une incohérence possible lorsqu'une décision change au même moment. **La version n'est donc pas acceptée** et un correctif supplémentaire est nécessaire.
 
 ## 22 octobre 2026 — Sécurité : une correction vérifiée
 

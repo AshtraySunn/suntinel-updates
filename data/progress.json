@@ -11,13 +11,13 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Une correction ciblée a été acceptée après audit. D'autres protections restent à compléter."
+      "description": "Une correction de sécurité a été acceptée avec réserves. Une autre, concernant les connexions, a réussi les tests du développeur et attend un audit indépendant."
     },
     {
       "code": "03 · RAPPORTS",
       "title": "Revue et rapports de recherche",
       "status": "working",
-      "description": "Un nouveau correctif des rapports a réussi ses tests de développement. Un audit indépendant est encore nécessaire avant son acceptation."
+      "description": "Un audit indépendant a demandé une nouvelle correction des rapports. La version actuelle n'est pas encore acceptée."
     },
     {
       "code": "04 · INTERFACE",
@@ -42,8 +42,14 @@
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
-      "title": "Rapports : nouveau correctif prêt à être vérifié",
-      "summary": "Une nouvelle version corrige, selon les tests du développeur, des problèmes de téléchargement et de versions en double. Elle attend une vérification indépendante."
+      "title": "Connexions : correction en attente d'audit",
+      "summary": "Une amélioration vise à empêcher l'utilisation d'anciennes sessions après la désactivation d'un compte. Les tests du développeur sont positifs, mais la validation indépendante reste à faire."
+    },
+    {
+      "date_iso": "2026-10-22",
+      "date_label": "22 oct. 2026",
+      "title": "Rapports : nouvelle correction nécessaire",
+      "summary": "L'audit indépendant confirme des progrès, mais relève un dernier problème de cohérence. Le candidat actuel n'est pas accepté et sera corrigé."
     },
     {
       "date_iso": "2026-10-22",
