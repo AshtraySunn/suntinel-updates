@@ -1,36 +1,22 @@
 # SunTinel — Feuille de route publique
 
-**Dernière mise à jour : 22 octobre 2026.**
+**Mise à jour : 22 octobre 2026.** Aucun calendrier d'ouverture n'est annoncé.
 
-Cette feuille de route décrit des intentions et des jalons limités. Elle ne constitue ni un engagement de calendrier, ni une preuve de conformité ou de disponibilité.
+| Étape | État |
+| --- | --- |
+| Dossiers, provenance et traitement de résultats | Composants testés et acceptés dans des périmètres limités, avec réserves |
+| Renforcement des comptes, accès et sauvegardes | Correctifs en cours de vérification |
+| Recherche par nom et pseudonyme | Parcours et outils travaillés sur scénarios fictifs |
+| Recherche d'entreprises | Connecteur à une source publique étudié |
+| Recherche par e-mail, téléphone, photo ou autres indices | À étudier et qualifier avant toute intégration |
+| Écrans de revue et rapports complets | Conception engagée ; développement à poursuivre |
+| Chiffrement du stockage et des sauvegardes | Exigence de protection à vérifier et qualifier |
+| Audit et exports | Journaux et exports de rapports testés partiellement ; export complet d'audit à qualifier |
+| Conservation, législation et admissions | Décisions et validations encore nécessaires |
+| Ouverture à des utilisateurs réels | Non autorisée, non planifiée à date |
 
-| Domaine | Statut public | Signification |
-| --- | --- | --- |
-| Fondations d'investigation | Évalué avec réserves | Des composants de provenance, recherche structurée et qualification ont été testés dans un périmètre limité |
-| Sécurité et comptes | Livré pour audit ; stabilisation en cours | De nouveaux correctifs attendent leur validation indépendante, d'autres sujets restent ouverts |
-| Parcours simulé | Livré pour audit | Un chemin avec données fictives et revue humaine est en cours de vérification |
-| Expérience enquêteur | Conception terminée | Les futurs écrans de résultats et de revue sont spécifiés, pas encore déployés |
-| Rapports consolidés | À venir | Mettre en cohérence les observations de plusieurs recherches et sécuriser les exports |
-| Récupération des états incertains | Conception engagée | Prévoir une résolution prudente, sans recollecte automatique |
-| Admission manuelle | Prévue, non ouverte | Examiner les demandes et protéger les dossiers indépendamment des fonctionnalités |
-| Qualification opérationnelle | Non engagée | Dépend de validations techniques, juridiques et de décisions explicites de gouvernance |
+## Notre méthode
 
-## Chemin de progression
+Nous distinguons toujours **ce qui existe en test**, **ce qui a été livré pour audit**, **ce qui est seulement prévu**, et **ce qui est réellement autorisé**. Un test réussi ne signifie pas qu'une fonction est ouverte.
 
-1. Soumettre les candidats techniques livrés à leurs audits indépendants.
-2. Intégrer uniquement les travaux acceptés et vérifier leurs interactions.
-3. Corriger les protections de comptes, sessions, dossiers et sauvegardes encore nécessaires.
-4. Développer les écrans de l'enquêteur et les rapports consolidés.
-5. Tester des parcours de bout en bout avec des données exclusivement fictives.
-6. Évaluer séparément toutes les conditions d'une éventuelle ouverture autorisée.
-
-## Engagements de méthode
-
-- **Pas de confirmation automatique d'identité** à partir d'une simple observation.
-- **Pas de recherche nominative publique** ni d'accès anonyme à la plateforme.
-- **Pas de collecte réelle autorisée** pendant la présente phase de développement.
-- **Pas de confusion entre une conception, une livraison et une acceptation indépendante.**
-- **Pas de mise en service implicite** à la suite d'un test réussi.
-- **Pas de date d'ouverture annoncée** avant que les prérequis soient remplis.
-
-Cette liste sera mise à jour après vérification des jalons, sans diffusion des détails d'infrastructure, des dossiers ou des audits confidentiels.
+[Recherches et outils](OUTILS_ET_RECHERCHES.md) · [Sécurité et droit](SECURITE_ET_DROIT.md)

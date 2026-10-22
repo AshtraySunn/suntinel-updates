@@ -1,50 +1,43 @@
 # SunTinel — Questions fréquentes
 
-_Mise à jour : 22 octobre 2026._
+## Qu'est-ce que SunTinel ?
 
-### À quoi sert SunTinel ?
+Un logiciel privé en développement pour aider des enquêteurs autorisés à rassembler des informations publiques, les comparer et rédiger des rapports clairs.
 
-À aider des enquêteurs autorisés à organiser un dossier, documenter la provenance des observations issues de sources ouvertes, recouper les résultats et rédiger des restitutions prudentes.
+## Que pourra-t-on rechercher ?
 
-### L'application est-elle disponible ?
+Des **noms et prénoms**, des **pseudonymes**, des **entreprises ou associations**. Les recherches à partir d'un **e-mail**, d'un **téléphone**, d'une **photo** ou d'autres indices sont des pistes futures à étudier. **Ces recherches ne sont pas ouvertes aujourd'hui.**
 
-**Non.** La bêta 0.1 est en développement. Certaines composantes sont évaluées avec des données fictives ; le produit global n'est pas encore qualifié ni ouvert.
+## Quels outils sont utilisés ?
 
-### Puis-je chercher une personne sur GitHub Pages ?
+Des outils externes sont travaillés : **Sherlock**, **Maigret**, **Tavily**, **DDGS** et **Recherche d'entreprises**. Ils servent à rechercher des profils ou des informations publiques. Tous ne sont pas autorisés pour un usage réel.
 
-**Non.** La page GitHub Pages présente le projet et ses avancées. Elle ne contient aucun moteur de recherche ni dossier d'enquête.
+## Qu'avez-vous créé vous-mêmes ?
 
-### Qui pourra demander un compte ?
+**SunTinel** : le logiciel qui organise les dossiers, rapproche les observations, garde leurs sources, trace les revues et prépare les rapports. Ce n'est pas une simple page qui renvoie vers les outils externes.
 
-Les enquêteurs professionnels ou associatifs et les structures d'investigation identifiées, lorsque la procédure sera ouverte. Toute demande fera l'objet d'un examen humain. Aucun formulaire n'est ouvert à ce jour.
+## Les données sont-elles chiffrées ?
 
-### L'approbation d'un compte donne-t-elle accès à tous les dossiers ?
+Le chiffrement rend une information illisible sans clé. Le projet prévoit de protéger les échanges, les informations conservées et les sauvegardes. **Toutes ces protections ne sont pas encore vérifiées : nous ne promettons pas un chiffrement intégral déjà opérationnel.**
 
-**Non.** Le produit prévoit les mêmes fonctionnalités pour les comptes approuvés, mais les accès aux dossiers et leurs partages restent distincts et contrôlés.
+## Y aura-t-il un historique et des exports ?
 
-### Une observation est-elle une preuve d'identité ?
+Oui, c'est un objectif central. Des journaux d'audit et des rapports existent dans les composants testés. Les formats PDF, texte et données structurées ont été exercés avec des données fictives. L'export complet des journaux d'audit reste à qualifier.
 
-**Non.** Des pages et profils similaires peuvent être des coïncidences. La provenance, les éléments contradictoires, les limites et la revue humaine sont fondamentaux.
+## Est-ce conforme au RGPD ?
 
-### Une information publique peut-elle être librement collectée ?
+SunTinel est conçu pour intégrer la protection des données, **mais n'est pas encore déclaré conforme ou homologué**. Selon les utilisateurs et l'objectif, le RGPD, la loi Informatique et Libertés ou les règles « Police-Justice » peuvent s'appliquer. Une donnée publique n'est pas librement réutilisable pour tout.
 
-Pas automatiquement. Sa présence en ligne ne remplace pas l'analyse du cadre juridique, de la finalité, du responsable de traitement et des autorisations pertinentes.
+## Qui pourra l'utiliser ?
 
-### À quelle date SunTinel sera-t-il ouvert ?
+Des professionnels et associations d'investigation dont l'accès sera examiné manuellement. Les dossiers resteront séparés même entre comptes approuvés. Aucun formulaire de candidature n'est encore ouvert.
 
-Aucune date n'est annoncée. Une éventuelle ouverture exige notamment des validations techniques, de sécurité, juridiques et de gouvernance distinctes.
+## Quand sera-t-il disponible ?
 
-### Le dépôt GitHub contient-il le code de l'application ?
+Aucune date n'est annoncée. La sécurité, les audits, le cadre juridique et les décisions de gouvernance doivent être validés avant toute ouverture.
 
-Non. Il contient le site de présentation, la feuille de route et le journal public. Le moteur privé, les dossiers et les détails confidentiels des audits n'y sont pas publiés.
+## Pourquoi le code n'est-il pas sur ce dépôt ?
 
-### Comment interpréter les statuts ?
+Ce GitHub publie seulement la présentation et les avancées. Le code privé, les données d'enquête et les rapports de sécurité internes ne sont pas publics.
 
-- **Évalué avec réserves** : accepté dans un périmètre limité uniquement.
-- **Livré pour audit** : candidat déposé, validation indépendante encore attendue.
-- **Conception terminée** : spécifications rédigées, pas de fonctionnalité finale disponible.
-- **À venir** : étape planifiée, non livrée.
-
-### Comment suivre les changements ?
-
-Consultez la [page publique](https://ashtraysunn.github.io/suntinel-updates/), le [journal public](CHANGELOG.md) ou la [feuille de route](ROADMAP.md).
+**Lire aussi :** [Recherches et outils](OUTILS_ET_RECHERCHES.md) · [Sécurité et droit](SECURITE_ET_DROIT.md) · [Feuille de route](ROADMAP.md).
