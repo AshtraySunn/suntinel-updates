@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Contrôles de session : nouveau candidat soumis à audit
+
+Une correction supplémentaire des contrôles d'autorisation lors de la clôture des dossiers a été livrée et testée par le développeur. **Elle attend une vérification indépendante et ne constitue pas une acceptation.** La plateforme reste non intégrée et fermée aux recherches réelles.
+
 ## 23 octobre 2026 — Accès aux dossiers : nouvel audit, correction encore requise
 
 Un audit indépendant confirme plusieurs corrections de cohérence et de confidentialité déjà testées. Il subsiste néanmoins une condition de sécurité liée à la validité des sessions lors d'une opération. **Le candidat n'est pas accepté : un correctif ciblé et une nouvelle revue indépendante restent nécessaires.** Aucune intégration ni ouverture du service.

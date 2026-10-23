@@ -47,7 +47,7 @@ La présence d'une information sur Internet ne suffit pas à autoriser sa collec
 - **La révocation des anciennes sessions a été acceptée par un audit indépendant, avec réserves**, sur les deux modes de stockage testés. Cela ne vaut pas validation de toute la sécurité.
 - **La correction des rapports a été acceptée avec réserves** par un audit indépendant, mais son intégration reste à vérifier.
 - **La nouvelle correction des dossiers a été auditée : des progrès sont confirmés, mais un problème reste à corriger**, avant acceptation ou intégration.
-- **Les protections de sessions et de rapports ont été réunies localement pour des essais** ; l'audit indépendant de nouveaux contrôles d'accès confirme des corrections, mais impose une dernière remédiation ciblée avant acceptation.
+- **Les protections de sessions et de rapports ont été réunies localement pour des essais** ; un nouveau correctif des contrôles de session a été livré et attend un audit indépendant, sans intégration globale.
 - **L'interface de revue et certains repères visuels restent à développer** avant la bêta.
 - **L'interface complète et l'accès sur validation restent à développer.**
 

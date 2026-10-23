@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Un nouvel audit indépendant confirme des progrès sur les accès et la cohérence des opérations, mais un défaut résiduel de validation des sessions bloque encore l'intégration."
+      "description": "Une nouvelle correction des contrôles de session a été livrée et testée par le développeur. La revue indépendante reste obligatoire avant intégration ou ouverture."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Contrôles de session : nouveau correctif prêt pour audit",
+      "summary": "Après un audit ayant révélé une condition de sécurité résiduelle, une correction ciblée a été livrée avec des tests de développement favorables. Elle attend son audit indépendant ; aucune intégration ni ouverture n'est autorisée."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",
