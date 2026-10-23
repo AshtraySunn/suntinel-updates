@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Une nouvelle correction des opérations de clôture a passé les tests du développeur. Une revue indépendante doit examiner des réserves techniques avant toute intégration."
+      "description": "Un nouvel audit indépendant impose encore des corrections de sécurité ; la conception des opérations de clôture doit être réévaluée."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Audit de clôture : nouvelle revue de conception nécessaire",
+      "summary": "Un audit confirme des améliorations mais identifie de nouveaux problèmes bloquants. La plateforme reste fermée ; une revue du protocole est prévue avant les corrections."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",

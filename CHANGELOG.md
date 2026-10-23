@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Clôture des dossiers : audit encore défavorable
+
+Un audit indépendant confirme des progrès mais révèle des problèmes de sécurité empêchant l'acceptation. Une revue de conception est nécessaire avant un nouveau correctif. **Aucune intégration ni mise en service.**
+
 ## 23 octobre 2026 — Clôture des dossiers : nouveau candidat, audit attendu
 
 Des améliorations de la fiabilité des clôtures ont été livrées et testées par le développeur. Des réserves restent à vérifier. **Ce candidat n'est pas accepté, ni intégré, ni déployé.**
