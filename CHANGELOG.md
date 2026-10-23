@@ -1,6 +1,14 @@
 # Journal public des avancées
 
-*Informations de développement, sans détails sensibles. Dernière mise à jour : 22 octobre 2026.*
+*Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
+
+## 23 octobre 2026 — Dossiers : nouveau candidat en attente d'audit
+
+Après un audit indépendant défavorable, un nouveau correctif de la création des dossiers a été livré et testé par le développeur. **Il n'est pas encore accepté par un nouvel audit, ni intégré ou déployé.**
+
+## 23 octobre 2026 — Compatibilité de la sécurité et des rapports testée en laboratoire
+
+Des essais sur deux modes de stockage avec des exemples fictifs ont confirmé la compatibilité de corrections de sécurité et de rapports sur les scénarios exécutés. Ils ont aussi mis en évidence des éléments de l'interface qui restent à développer. **Ces essais ne valent ni fusion définitive ni validation de la bêta.**
 
 ## 22 octobre 2026 — Dossiers : corrections supplémentaires nécessaires
 

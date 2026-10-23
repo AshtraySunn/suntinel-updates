@@ -6,7 +6,7 @@ SunTinel est un **logiciel privé en développement** pour aider des enquêteurs
 
 **[Découvrir la page de présentation](https://ashtraysunn.github.io/suntinel-updates/)**
 
-> **Bêta 0.1 · 22 octobre 2026 : accès fermé.** Aucun utilisateur ne peut lancer de recherches réelles depuis cette page.
+> **Bêta 0.1 · 23 octobre 2026 : accès fermé.** Aucun utilisateur ne peut lancer de recherches réelles depuis cette page.
 
 ## À quoi cela servira ?
 
@@ -46,8 +46,9 @@ La présence d'une information sur Internet ne suffit pas à autoriser sa collec
 - **Une correction de sécurité ciblée a été acceptée** après audit indépendant, avec notes.
 - **La révocation des anciennes sessions a été acceptée par un audit indépendant, avec réserves**, sur les deux modes de stockage testés. Cela ne vaut pas validation de toute la sécurité.
 - **La correction des rapports a été acceptée avec réserves** par un audit indépendant, mais son intégration reste à vérifier.
-- **L'audit indépendant de la création des dossiers demande encore des corrections**, avant toute intégration.
-- **La compatibilité des deux corrections de sécurité déjà acceptées a été testée**, sans fusion.
+- **Un nouveau correctif de création des dossiers a été livré après un audit défavorable** ; il attend un nouvel audit indépendant et n'est pas intégré.
+- **Les corrections de sécurité et de rapports ont été testées ensemble en laboratoire**, sans fusion définitive.
+- **L'interface de revue et certains repères visuels restent à développer** avant la bêta.
 - **L'interface complète et l'accès sur validation restent à développer.**
 
 Les fonctions décrites ne sont pas forcément disponibles aujourd'hui. Aucun accès réel n'est ouvert.

@@ -1,5 +1,5 @@
 {
-  "updated_label": "22 octobre 2026",
+  "updated_label": "23 octobre 2026",
   "milestones": [
     {
       "code": "01 · SOCLE",
@@ -17,19 +17,19 @@
       "code": "03 · RAPPORTS",
       "title": "Revue et rapports de recherche",
       "status": "working",
-      "description": "Une correction des rapports a été acceptée avec réserves après audit indépendant. Son intégration avec les autres travaux reste à tester."
+      "description": "Une correction a été acceptée avec réserves ; sa combinaison avec la sécurité a passé des essais de laboratoire, sans intégration définitive."
     },
     {
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "L'audit indépendant demande de renforcer la fiabilité de la création des dossiers et leur récupération après interruption. L'intégration reste bloquée."
+      "description": "Une nouvelle correction a été livrée et testée par le développeur après un audit défavorable. Un nouvel audit indépendant reste obligatoire avant intégration."
     },
     {
       "code": "05 · INTERFACE",
       "title": "Écrans pour les enquêteurs",
       "status": "planned",
-      "description": "La conception est rédigée. Les écrans et les rapports complets restent à développer."
+      "description": "Conception disponible et parcours partiellement testé avec des données fictives ; interface de revue et signalement visuel des données synthétiques encore à développer."
     },
     {
       "code": "06 · CONFIDENTIALITÉ",
@@ -45,6 +45,18 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Dossiers : nouvelle correction prête pour audit",
+      "summary": "Après des problèmes confirmés lors d'un audit, une nouvelle version a été livrée et testée par son développeur. Elle attend une vérification indépendante et n'est pas encore intégrée."
+    },
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Sécurité et rapports : essais communs encourageants",
+      "summary": "Des essais techniques avec des données fictives confirment la compatibilité de plusieurs corrections, dans leur périmètre testé. L'interface et l'intégration définitive restent incomplètes."
+    },
     {
       "date_iso": "2026-10-22",
       "date_label": "22 oct. 2026",
