@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Nouvelle correction locale de la récupération et des historiques des dossiers livrée. Audit indépendant encore à réaliser ; intégration bloquée."
+      "description": "Un audit indépendant confirme la correction de l'historique des créations, mais un problème de sécurité de session bloque toujours l'intégration."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Création des dossiers : audit encore défavorable",
+      "summary": "L'audit indépendant confirme plusieurs améliorations des créations et de leurs historiques. Un défaut d'autorisation reste à corriger avant nouvelle revue. Aucun accès réel ouvert."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",

@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Création des dossiers : audit indépendant, correction nécessaire
+
+L'audit indépendant confirme plusieurs améliorations de la fiabilité des dossiers, mais une condition de sécurité supplémentaire empêche l'acceptation du candidat. **Une nouvelle correction et une nouvelle revue sont nécessaires avant intégration.**
+
 ## 23 octobre 2026 — Clôture des dossiers : audit encore défavorable
 
 Un audit indépendant confirme des progrès mais révèle des problèmes de sécurité empêchant l'acceptation. Une revue de conception est nécessaire avant un nouveau correctif. **Aucune intégration ni mise en service.**
