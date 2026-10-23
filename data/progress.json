@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Des corrections ont été vérifiées sur les comptes et les dossiers privés. Le dernier audit indépendant demande encore des améliorations de cohérence et d'autorisation avant une intégration."
+      "description": "Des protections de comptes et de dossiers ont été auditées avec réserves. Un correctif supplémentaire de cohérence et d'autorisations est maintenant livré pour une revue indépendante, sans intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Accès aux dossiers : nouvelle correction à vérifier",
+      "summary": "Une nouvelle version locale a terminé sa campagne de tests de développement pour renforcer les contrôles d'accès et la cohérence des opérations. Un audit indépendant doit encore confirmer ces résultats avant toute intégration."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",
