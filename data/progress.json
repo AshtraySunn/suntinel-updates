@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Une nouvelle correction des contrôles de session a été livrée et testée par le développeur. La revue indépendante reste obligatoire avant intégration ou ouverture."
+      "description": "Un audit indépendant confirme plusieurs corrections des sessions et de la clôture des dossiers, mais une fenêtre temporelle résiduelle nécessite encore une correction avant intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Sécurité des clôtures : nouvel audit, correction encore nécessaire",
+      "summary": "Le nouvel audit indépendant confirme plusieurs corrections, mais un défaut résiduel de contrôle des autorisations empêche encore l'acceptation. Une remédiation et une nouvelle vérification sont nécessaires."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",

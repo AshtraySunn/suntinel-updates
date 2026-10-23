@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Clôture des dossiers : audit indépendant, nouvelle correction nécessaire
+
+Le dernier audit indépendant confirme le bon fonctionnement de plusieurs corrections des sessions et de la cohérence des dossiers. Il signale toutefois une condition de sécurité résiduelle lors d'une clôture. **Le candidat n'est pas accepté pour intégration ; une correction supplémentaire et un nouvel audit sont nécessaires.** Aucun déploiement ni accès réel.
+
 ## 23 octobre 2026 — Contrôles de session : nouveau candidat soumis à audit
 
 Une correction supplémentaire des contrôles d'autorisation lors de la clôture des dossiers a été livrée et testée par le développeur. **Elle attend une vérification indépendante et ne constitue pas une acceptation.** La plateforme reste non intégrée et fermée aux recherches réelles.
