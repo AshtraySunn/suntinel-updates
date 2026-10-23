@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Dossiers : progrès confirmés, audit encore défavorable
+
+Un nouvel audit indépendant a confirmé la correction de plusieurs problèmes antérieurs, mais a relevé une incohérence résiduelle dans l'historique des opérations. **Le candidat n'est pas accepté : une correction supplémentaire et une nouvelle vérification sont nécessaires avant intégration.**
+
 ## 23 octobre 2026 — Dossiers : nouveau candidat en attente d'audit
 
 Après un audit indépendant défavorable, un nouveau correctif de la création des dossiers a été livré et testé par le développeur. **Il n'est pas encore accepté par un nouvel audit, ni intégré ou déployé.**

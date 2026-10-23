@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Une nouvelle correction a été livrée et testée par le développeur après un audit défavorable. Un nouvel audit indépendant reste obligatoire avant intégration."
+      "description": "Le dernier audit confirme des progrès importants, mais un problème restant de cohérence de l'historique impose une correction supplémentaire avant l'intégration."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Dossiers : audit indépendant, correction supplémentaire demandée",
+      "summary": "Un audit confirme que plusieurs problèmes précédents ont été corrigés. Il demande encore une correction de cohérence de l'historique avant acceptation. La version reste fermée."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",

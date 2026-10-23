@@ -7,7 +7,7 @@
 | **Recherche et classement** | Premiers composants évalués avec réserves |
 | **Comptes et sécurité** | Deux corrections ciblées acceptées avec réserves ; compatibilité testée, intégration encore à réaliser |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; compatibilité partiellement vérifiée en laboratoire, intégration définitive non réalisée |
-| **Création des dossiers** | Nouvelle correction livrée après un audit défavorable ; nouvel audit indépendant requis avant intégration |
+| **Création des dossiers** | Nouvel audit : plusieurs corrections confirmées, mais un problème de cohérence reste à traiter avant acceptation |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |
