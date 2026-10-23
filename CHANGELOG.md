@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Clôture des dossiers : nouveau candidat, audit attendu
+
+Des améliorations de la fiabilité des clôtures ont été livrées et testées par le développeur. Des réserves restent à vérifier. **Ce candidat n'est pas accepté, ni intégré, ni déployé.**
+
 ## 23 octobre 2026 — Création des dossiers : nouvelle correction à auditer
 
 Un nouveau correctif de la récupération et des historiques des dossiers a passé des tests de développement. **Il attend une vérification indépendante, sans intégration ni déploiement.**

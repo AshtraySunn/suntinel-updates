@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Un audit indépendant confirme plusieurs corrections des sessions et de la clôture des dossiers, mais une fenêtre temporelle résiduelle nécessite encore une correction avant intégration."
+      "description": "Une nouvelle correction des opérations de clôture a passé les tests du développeur. Une revue indépendante doit examiner des réserves techniques avant toute intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Clôture des dossiers : nouveau candidat à auditer",
+      "summary": "Des corrections de concurrence ont été livrées et testées localement. Des limites restent à examiner en audit indépendant ; le service demeure fermé."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",
