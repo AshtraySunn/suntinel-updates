@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Des protections de comptes et de dossiers ont été auditées avec réserves. Un correctif supplémentaire de cohérence et d'autorisations est maintenant livré pour une revue indépendante, sans intégration."
+      "description": "Un nouvel audit indépendant confirme des progrès sur les accès et la cohérence des opérations, mais un défaut résiduel de validation des sessions bloque encore l'intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Accès aux dossiers : audit favorable sur plusieurs corrections, réserve bloquante",
+      "summary": "L'audit indépendant confirme que plusieurs écarts précédents sont corrigés. Une vérification supplémentaire de la validité des sessions reste nécessaire avant acceptation. Aucune intégration ni utilisation réelle."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",

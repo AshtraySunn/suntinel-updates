@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Accès aux dossiers : nouvel audit, correction encore requise
+
+Un audit indépendant confirme plusieurs corrections de cohérence et de confidentialité déjà testées. Il subsiste néanmoins une condition de sécurité liée à la validité des sessions lors d'une opération. **Le candidat n'est pas accepté : un correctif ciblé et une nouvelle revue indépendante restent nécessaires.** Aucune intégration ni ouverture du service.
+
 ## 23 octobre 2026 — Accès aux dossiers : candidat de correction livré pour audit
 
 Une nouvelle correction locale vise les écarts précédemment signalés concernant la cohérence des opérations et le contrôle des accès. Les campagnes de tests du développeur se sont terminées favorablement dans leur périmètre. **Le candidat attend une revue indépendante et n'est ni intégré ni déployé.**

@@ -5,7 +5,7 @@
 | Sujet | Où en sommes-nous ? |
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
-| **Comptes et sécurité** | Corrections ciblées acceptées avec réserves ; nouveau candidat de contrôle des accès livré, revue indépendante en attente |
+| **Comptes et sécurité** | Un audit indépendant confirme de nouvelles corrections, mais un défaut résiduel des contrôles de session nécessite une remédiation avant intégration |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; réunion locale avec la gestion des sessions, intégration globale non validée |
 | **Création des dossiers** | Nouvel audit : plusieurs corrections confirmées, mais un problème de cohérence reste à traiter avant acceptation |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
