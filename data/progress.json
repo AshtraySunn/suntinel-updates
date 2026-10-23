@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Un nouvel audit indépendant impose encore des corrections de sécurité ; la conception des opérations de clôture doit être réévaluée."
+      "description": "Une proposition de nouveau protocole de clôture a été évaluée. Une décision sur les garanties attendues reste nécessaire avant toute implémentation."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Clôture des dossiers : proposition d'architecture à arbitrer",
+      "summary": "Un examen indépendant a identifié une solution de conception sous un contrat de sécurité à confirmer. Aucun nouveau correctif n'a été engagé et le service reste fermé."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",

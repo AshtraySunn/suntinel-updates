@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Clôture des dossiers : étude d'architecture terminée
+
+Une revue de conception indépendante a identifié une approche possible pour sécuriser les opérations. Elle nécessite une décision explicite sur les garanties retenues avant développement. **Il ne s'agit ni d'un correctif réalisé ni d'une acceptation de sécurité.** Le service reste fermé.
+
 ## 23 octobre 2026 — Création des dossiers : audit indépendant, correction nécessaire
 
 L'audit indépendant confirme plusieurs améliorations de la fiabilité des dossiers, mais une condition de sécurité supplémentaire empêche l'acceptation du candidat. **Une nouvelle correction et une nouvelle revue sont nécessaires avant intégration.**
