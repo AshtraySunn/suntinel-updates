@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Deux protections ciblées ont été acceptées avec réserves. Une nouvelle correction de cloisonnement et de contrôle des droits a été testée par le développeur ; audit indépendant encore nécessaire."
+      "description": "Des corrections ont été vérifiées sur les comptes et les dossiers privés. Le dernier audit indépendant demande encore des améliorations de cohérence et d'autorisation avant une intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Accès aux dossiers : audit indépendant et corrections à poursuivre",
+      "summary": "L'audit confirme les progrès de l'isolation des dossiers et des contrôles d'accès, mais identifie encore des comportements à corriger avant intégration. Aucune mise en service n'est autorisée."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",
