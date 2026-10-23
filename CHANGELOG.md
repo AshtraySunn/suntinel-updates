@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Création des dossiers : nouvelle correction à auditer
+
+Un nouveau correctif de la récupération et des historiques des dossiers a passé des tests de développement. **Il attend une vérification indépendante, sans intégration ni déploiement.**
+
 ## 23 octobre 2026 — Clôture des dossiers : audit indépendant, nouvelle correction nécessaire
 
 Le dernier audit indépendant confirme le bon fonctionnement de plusieurs corrections des sessions et de la cohérence des dossiers. Il signale toutefois une condition de sécurité résiduelle lors d'une clôture. **Le candidat n'est pas accepté pour intégration ; une correction supplémentaire et un nouvel audit sont nécessaires.** Aucun déploiement ni accès réel.

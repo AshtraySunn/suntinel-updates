@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Le dernier audit confirme des progrès importants, mais un problème restant de cohérence de l'historique impose une correction supplémentaire avant l'intégration."
+      "description": "Nouvelle correction locale de la récupération et des historiques des dossiers livrée. Audit indépendant encore à réaliser ; intégration bloquée."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-23",
+      "date_label": "23 oct. 2026",
+      "title": "Dossiers : nouveau correctif soumis à audit",
+      "summary": "Une nouvelle correction de cohérence des historiques a été livrée et testée par le développeur. Une revue indépendante reste nécessaire avant intégration."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",
