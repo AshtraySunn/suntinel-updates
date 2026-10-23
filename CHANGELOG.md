@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 23 octobre 2026.*
 
+## 23 octobre 2026 — Cloisonnement des dossiers : correctifs soumis à revue
+
+Un candidat distinct a été développé et testé pour limiter la lecture aux dossiers autorisés et vérifier à nouveau les droits lors d'une opération importante. Il s'appuie sur un assemblage local de corrections de sécurité et de rapports. **L'ensemble attend un audit indépendant ; il n'est ni déployé ni ouvert aux utilisateurs.** Les travaux distincts sur la fiabilité de la création des dossiers restent en cours.
+
 ## 23 octobre 2026 — Dossiers : progrès confirmés, audit encore défavorable
 
 Un nouvel audit indépendant a confirmé la correction de plusieurs problèmes antérieurs, mais a relevé une incohérence résiduelle dans l'historique des opérations. **Le candidat n'est pas accepté : une correction supplémentaire et une nouvelle vérification sont nécessaires avant intégration.**
