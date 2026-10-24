@@ -5,9 +5,9 @@
 | Sujet | Où en sommes-nous ? |
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
-| **Comptes et sécurité** | Audit indépendant : plusieurs corrections confirmées, mais une fenêtre de sécurité résiduelle exige une nouvelle remédiation avant intégration |
+| **Comptes et sécurité** | Principes d'autorisation définis ; garanties de persistance et nouvelle implémentation en préparation avant audit indépendant |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; réunion locale avec la gestion des sessions, intégration globale non validée |
-| **Création des dossiers** | Audit indépendant d'un nouveau correctif terminé ; décision de sécurité temporelle indispensable avant acceptation ou intégration |
+| **Création des dossiers** | Cadre de sécurité défini ; prochain correctif à développer puis faire auditer avant toute intégration |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |

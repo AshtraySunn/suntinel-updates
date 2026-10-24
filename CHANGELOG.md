@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Cadre des autorisations défini pour les dossiers
+
+Les principes de sécurité applicables aux créations et clôtures des dossiers ont été explicitement validés. Une nouvelle implémentation et des audits indépendants sont nécessaires. **Aucun candidat précédemment bloqué n'est accepté par cette décision ; aucune intégration ni mise en service.**
+
 ## 24 octobre 2026 — Création des dossiers : arbitrage de sécurité nécessaire
 
 La revue indépendante du dernier correctif confirme la fermeture du problème de concurrence ciblé. Elle identifie néanmoins une décision de conception et de sécurité indispensable avant acceptation : **le candidat n'est toujours pas accepté, intégré ou déployé**. Aucune ouverture de la plateforme n'est autorisée.

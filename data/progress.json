@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Une proposition de nouveau protocole de clôture a été évaluée. Une décision sur les garanties attendues reste nécessaire avant toute implémentation."
+      "description": "Les principes de sécurité des décisions sur les dossiers ont été définis. Une implémentation durable et des audits indépendants restent indispensables avant toute intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "L'audit indépendant d'un nouveau correctif confirme la correction de la concurrence sur les sessions. Une décision sur le contrat temporel et des garanties complémentaires restent nécessaires avant intégration."
+      "description": "Une nouvelle conception sécurisée est prévue après un audit indépendant ayant confirmé des progrès et des limites. Le correctif précédent n'est pas accepté pour intégration."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-24",
+      "date_label": "24 oct. 2026",
+      "title": "Principes de sécurité validés, nouvelle implémentation à préparer",
+      "summary": "Le cadre des autorisations de création et de clôture est désormais défini. Les contrôles persistants doivent encore être développés et audités indépendamment. Le service reste fermé."
+    },
     {
       "date_iso": "2026-10-24",
       "date_label": "24 oct. 2026",
