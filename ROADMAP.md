@@ -5,9 +5,9 @@
 | Sujet | Où en sommes-nous ? |
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
-| **Comptes et sécurité** | Principes d'autorisation définis ; garanties de persistance et nouvelle implémentation en préparation avant audit indépendant |
+| **Comptes et sécurité** | Nouveau candidat d'autorisation durable développé, audit indépendant nécessaire avant toute intégration |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; réunion locale avec la gestion des sessions, intégration globale non validée |
-| **Création des dossiers** | Cadre de sécurité défini ; prochain correctif à développer puis faire auditer avant toute intégration |
+| **Création des dossiers** | Nouveau correctif livré localement et testé par le développeur ; non accepté, revue indépendante en attente |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |

@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Les principes de sécurité des décisions sur les dossiers ont été définis. Une implémentation durable et des audits indépendants restent indispensables avant toute intégration."
+      "description": "Un nouveau candidat implémente les décisions d'autorisation enregistrées durablement. Il est prêt pour une revue indépendante ; aucune acceptation ou intégration n'est acquise."
     },
     {
       "code": "03 · RAPPORTS",
@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Une nouvelle conception sécurisée est prévue après un audit indépendant ayant confirmé des progrès et des limites. Le correctif précédent n'est pas accepté pour intégration."
+      "description": "La création des dossiers a reçu un nouveau correctif de développement avec tests favorables, mais sa sécurité doit encore être validée par un audit indépendant."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-24",
+      "date_label": "24 oct. 2026",
+      "title": "Nouveau candidat de création soumis à audit",
+      "summary": "Une évolution majeure des contrôles d'autorisation et de récupération a été livrée en développement, avec tests favorables. Elle attend une revue de sécurité indépendante ; le service reste fermé."
+    },
     {
       "date_iso": "2026-10-24",
       "date_label": "24 oct. 2026",

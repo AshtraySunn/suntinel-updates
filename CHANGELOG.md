@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Création des dossiers : nouveau candidat livré pour audit
+
+Une nouvelle version de développement apporte des contrôles plus complets sur les autorisations et leur traçabilité. Les campagnes de tests réalisées par le développeur sont favorables, mais **un audit indépendant reste obligatoire**. Il ne s'agit ni d'une acceptation, ni d'une intégration, ni d'une mise en service.
+
 ## 24 octobre 2026 — Cadre des autorisations défini pour les dossiers
 
 Les principes de sécurité applicables aux créations et clôtures des dossiers ont été explicitement validés. Une nouvelle implémentation et des audits indépendants sont nécessaires. **Aucun candidat précédemment bloqué n'est accepté par cette décision ; aucune intégration ni mise en service.**
