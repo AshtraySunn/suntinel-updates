@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="assets/shield-beacon.svg" alt="SunTinel — Shield Beacon" width="90">
+  <img src="assets/suntinel-logo-officiel.png" alt="Logo officiel SunTinel" width="75">
 </p>
 <h1 align="center">SUNTINEL</h1>
 <p align="center"><strong>OSINT INVESTIGATION PLATFORM</strong></p>
-<p align="center"><em>L’information mérite de la méthode.</em></p>
+<p align="center"><em>L'investigation, avec méthode.</em></p>
 <p align="center">
   <a href="https://ashtraysunn.github.io/suntinel-updates/">Explorer la vitrine</a> ·
   <a href="ROADMAP.md">Feuille de route</a> ·
@@ -51,9 +51,9 @@ Aucune homologation, conformité générale, disponibilité du service ou date d
 
 ## L'identité « Shield Beacon »
 
-La charte SunTinel associe un **bouclier protecteur** et une **balise solaire** : investigation, protection, précision, traçabilité et confiance. Le bleu nuit profond est associé aux accents or, cyan, vert et violet.
+La charte SunTinel associe un **bouclier protecteur** et une **balise solaire** : investigation, protection, précision, traçabilité et confiance. Le bleu nuit profond est associé aux accents or et violet du logo officiel, complétés par des couleurs fonctionnelles discrètes.
 
-[Voir la charte visuelle et les assets](BRAND.md).
+[Voir la charte visuelle et le logo officiel](BRAND.md).
 
 ## À propos de ce dépôt
 

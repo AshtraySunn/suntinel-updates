@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Vitrine épurée avec logo officiel
+
+La page publique a été simplifiée : titres plus petits, navigation resserrée, moins de cartes et de décoration. **Le logo officiel doré et violet fourni pour SunTinel remplace les emblèmes de substitution**, y compris dans le README et le favicon. Le statut du logiciel reste inchangé.
+
 ## 24 octobre 2026 — Création des dossiers : audit indépendant défavorable
 
 L’audit indépendant confirme plusieurs améliorations de la création et de la récupération des dossiers, mais relève un défaut d’autorisation encore bloquant. **Le candidat n’est pas accepté ; une nouvelle correction et une nouvelle revue sont nécessaires.** Aucun détail technique sensible n’est publié ici.

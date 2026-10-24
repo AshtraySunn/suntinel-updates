@@ -1,10 +1,16 @@
 # SunTinel — Brand System / Shield Beacon
 
+## Logo officiel
+
+La vitrine utilise désormais **le logo officiel SunTinel transmis par le porteur du projet**, sous la forme d'un fichier image issu de l'original et optimisé pour le Web. Le blason doré et violet est affiché sans redessin ni transformation de ses proportions. Sa résolution source est de 82 × 99 pixels : privilégier les affichages modestes pour éviter le flou.
+
+Le site évite désormais tout autre symbole inventé pour représenter la marque.
+
 ## Direction artistique
 
 **Shield Beacon** : un bouclier abritant une balise solaire. Il évoque investigation, protection, traçabilité, précision et confiance.
 
-Le mot-symbole utilise **SUN** en quasi-blanc et **TINEL** en or, en capitales espacées, accompagné du descripteur **OSINT INVESTIGATION PLATFORM**.
+Le nom est présenté en typographie sobre à côté du logo fourni. Le descripteur **OSINT INVESTIGATION PLATFORM** reste facultatif ; il ne doit pas concurrencer le logo.
 
 ## Palette de référence
 
@@ -25,15 +31,13 @@ Dégradé principal : `linear-gradient(90deg,#FFC107,#FF8A00)`.
 
 ## Typographie
 
-Référence : **Sora** en titres et interface, avec Inter et polices système comme secours. La vitrine n’importe aucun fichier de police ou script tiers ; l'affichage utilise les polices déjà disponibles sur l’appareil.
+Référence produit : **Sora**. Pour la vitrine, priorité à **Inter ou aux polices système**, en tailles modérées, plutôt qu'à de grands titres décoratifs. La vitrine n’importe aucun fichier de police ou script tiers ; l'affichage utilise les polices déjà disponibles sur l’appareil.
 
-## Assets
+## Asset principal
 
-- [Symbole Shield Beacon](assets/shield-beacon.svg)
-- [Illustration vectorielle de la vitrine](assets/hero-beacon.svg)
-- [Favicon](favicon.svg)
+- [Logo officiel SunTinel](assets/suntinel-logo-officiel.png) — unique emblème utilisé sur la page d'accueil, dans le README et pour le favicon.
 
-Ces fichiers sont **des recréations SVG dédiées fondées sur la direction Shield Beacon**, et non des assets officiels récupérés dans une planche pixellisée. Ils pourront être remplacés si un master vectoriel validé est fourni.
+La charte de couleur est conservée, mais les proportions et l'iconographie officielle priment sur les anciens essais graphiques.
 
 ## Utilisation
 

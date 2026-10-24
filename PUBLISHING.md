@@ -29,6 +29,6 @@ Dans **Settings → Pages** du dépôt, choisir **Deploy from a branch**, la bra
 
 ## Identité visuelle
 
-La charte Shield Beacon et ses tokens sont documentés dans [BRAND.md](BRAND.md). Les assets SVG sont locaux et ne contiennent pas de données d'enquête. Ne pas ajouter de police distante, script publicitaire, traceur ou fournisseur externe sans justification et validation explicites.
+La charte et le logo officiel SunTinel sont documentés dans [BRAND.md](BRAND.md). Le logo image local n'inclut aucune donnée d'enquête. Ne pas ajouter de police distante, script publicitaire, traceur ou fournisseur externe sans justification et validation explicites.
 
 Conserver le focus clavier, les contrastes, les textes alternatifs pertinents et la prise en charge de `prefers-reduced-motion`.
