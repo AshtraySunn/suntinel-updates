@@ -26,9 +26,3 @@ Dans **Settings → Pages** du dépôt, choisir **Deploy from a branch**, la bra
 **Les mots à employer sont simples :** « testé », « en cours », « prévu », « accepté avec réserves ». Éviter de confondre « terminé par le développeur » avec « vérifié et accepté ».
 
 **Aucun formulaire de demande de compte ni recherche nominative n'est ouvert depuis cette vitrine.**
-
-## Identité visuelle
-
-La charte et le logo officiel SunTinel sont documentés dans [BRAND.md](BRAND.md). Le logo image local n'inclut aucune donnée d'enquête. Ne pas ajouter de police distante, script publicitaire, traceur ou fournisseur externe sans justification et validation explicites.
-
-Conserver le focus clavier, les contrastes, les textes alternatifs pertinents et la prise en charge de `prefers-reduced-motion`.

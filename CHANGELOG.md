@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Retour à la présentation précédente
+
+La vitrine publique reprend le design utilisé avant la refonte Shield Beacon, à la demande du porteur du projet. Les résultats récents des audits et les informations de sécurité restent conservés. **Aucune modification du logiciel privé, aucune ouverture du service.**
+
 ## 24 octobre 2026 — Vitrine épurée avec logo officiel
 
 La page publique a été simplifiée : titres plus petits, navigation resserrée, moins de cartes et de décoration. **Le logo officiel doré et violet fourni pour SunTinel remplace les emblèmes de substitution**, y compris dans le README et le favicon. Le statut du logiciel reste inchangé.

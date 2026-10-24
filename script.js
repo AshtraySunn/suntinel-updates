@@ -27,9 +27,9 @@ async function loadNews() {
     if (!Array.isArray(data.milestones) || !Array.isArray(data.updates)) {
       throw new Error('Invalid progress data');
     }
-    select('#date-maj').textContent = String(data.updated_label || '24 octobre 2026');
+    select('#date-maj').textContent = String(data.updated_label || '22 octobre 2026');
 
-    const milestoneNodes = data.milestones.slice(0, 4).map(item => {
+    const milestoneNodes = data.milestones.map(item => {
       const state = Object.hasOwn(statusLabels, item.status) ? item.status : 'planned';
       const card = element('article', 'roadmap-card');
       const top = element('div', 'roadmap-top');
@@ -41,7 +41,7 @@ async function loadNews() {
       return card;
     });
 
-    const updateNodes = data.updates.slice(0, 3).map(item => {
+    const updateNodes = data.updates.map(item => {
       const row = element('article', 'update-row');
       const date = element('time', '', item.date_label);
       if (item.date_iso) date.dateTime = String(item.date_iso);
