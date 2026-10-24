@@ -7,7 +7,7 @@
 | **Recherche et classement** | Premiers composants évalués avec réserves |
 | **Comptes et sécurité** | Audit indépendant : plusieurs corrections confirmées, mais une fenêtre de sécurité résiduelle exige une nouvelle remédiation avant intégration |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; réunion locale avec la gestion des sessions, intégration globale non validée |
-| **Création des dossiers** | Nouveau candidat livré et testé localement ; revue indépendante à réaliser, intégration non autorisée |
+| **Création des dossiers** | Plusieurs corrections confirmées, mais un défaut de contrôle des sessions bloque encore l’intégration ; correction et audit supplémentaires nécessaires |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |

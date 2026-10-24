@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Un nouveau candidat de correction de la création des dossiers a été livré et testé en développement. Il attend une revue indépendante ; l'intégration reste bloquée."
+      "description": "L’audit indépendant confirme plusieurs corrections de création des dossiers, mais une faiblesse résiduelle de session bloque toujours l’intégration. Une nouvelle remédiation est nécessaire."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-24",
+      "date_label": "24 oct. 2026",
+      "title": "Création des dossiers : nouvel audit, correctif nécessaire",
+      "summary": "Un audit indépendant confirme plusieurs corrections, mais relève un problème d’autorisation encore bloquant. Le candidat n’est pas accepté ; une nouvelle remédiation est nécessaire."
+    },
     {
       "date_iso": "2026-10-24",
       "date_label": "24 oct. 2026",

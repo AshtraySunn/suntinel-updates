@@ -1,64 +1,64 @@
-# SunTinel
+<p align="center">
+  <img src="assets/shield-beacon.svg" alt="SunTinel — Shield Beacon" width="90">
+</p>
+<h1 align="center">SUNTINEL</h1>
+<p align="center"><strong>OSINT INVESTIGATION PLATFORM</strong></p>
+<p align="center"><em>L’information mérite de la méthode.</em></p>
+<p align="center">
+  <a href="https://ashtraysunn.github.io/suntinel-updates/">Explorer la vitrine</a> ·
+  <a href="ROADMAP.md">Feuille de route</a> ·
+  <a href="CHANGELOG.md">Journal des avancées</a> ·
+  <a href="BRAND.md">Identité visuelle</a>
+</p>
 
-**Rechercher. Vérifier. Expliquer.**
+---
 
-SunTinel est un **logiciel privé en développement** pour aider des enquêteurs autorisés à organiser des recherches sur Internet, comparer les informations publiques et préparer des rapports.
+## Une plateforme privée pour l'investigation en sources ouvertes
 
-**[Découvrir la page de présentation](https://ashtraysunn.github.io/suntinel-updates/)**
+SunTinel vise à aider des enquêteurs autorisés à **rechercher, recouper et documenter** des informations issues de sources ouvertes, à conserver les références et à rendre visibles les incertitudes.
 
-> **Bêta 0.1 · 23 octobre 2026 : accès fermé.** Aucun utilisateur ne peut lancer de recherches réelles depuis cette page.
+**Une piste n’est jamais une preuve automatique d’identité.** La vérification et les conclusions restent humaines.
 
-## À quoi cela servira ?
+> **Bêta 0.1 · Développement privé — 24 octobre 2026.**
+> Accès fermé. Cette vitrine ne permet aucune recherche de personne, aucune inscription et aucune demande d’enquête.
 
-SunTinel vise à réunir les recherches et leurs résultats dans un seul dossier. L'enquêteur pourra garder les sources, voir les éventuelles contradictions et expliquer pourquoi il retient ou rejette une piste.
+### Fonctions envisagées
 
-**Ce n'est pas un outil qui prouve automatiquement une identité.**
-
-### Recherches envisagées
-
-| Point de départ | Situation actuelle |
+| Point de départ | État du projet |
 | --- | --- |
-| **Nom et prénom** | Parcours testé avec des données fictives |
-| **Pseudonyme** | Outils spécialisés en test |
-| **Entreprise ou association** | Source de données publiques étudiée |
-| **E-mail ou numéro de téléphone** | À l'étude, pas encore disponible |
-| **Photo ou site Internet** | Piste future |
+| Nom et prénom | Parcours évalué sur des données fictives |
+| Pseudonyme | Collecteurs spécialisés en test |
+| Entreprise ou association | Sources publiques étudiées |
+| E-mail ou téléphone | À l’étude |
+| Photo ou site internet | Piste future |
 
-Nous travaillons avec des outils spécialisés existants comme **Sherlock**, **Maigret**, **Tavily**, **DDGS** et **Recherche d'entreprises**. **SunTinel est notre propre logiciel**, conçu pour organiser les résultats de ces sources. Aucun de ces outils n'est autorisé ici pour des recherches réelles.
+SunTinel organise les résultats d’outils spécialisés comme Sherlock, Maigret, Tavily, DDGS et certaines sources publiques d’entreprises. Aucun de ces outils n’est activé ici pour des recherches réelles. [Comprendre les recherches et les outils](OUTILS_ET_RECHERCHES.md).
 
-[Comprendre les recherches et les outils](OUTILS_ET_RECHERCHES.md)
+## Confidentialité et avancement
 
-## Comment protéger les informations ?
+- **Comptes approuvés manuellement** envisagés pour des utilisateurs autorisés, sans inscription libre.
+- **Isolation des dossiers** : mêmes fonctions pour les comptes approuvés, mais pas d’accès automatique aux dossiers des autres utilisateurs.
+- **Traçabilité et revue humaine** prévues pour les décisions et rapports.
+- **Protection du stockage, sauvegardes et conservation** encore à qualifier.
 
-La protection des dossiers fait partie des priorités : **comptes approuvés**, **accès limités aux dossiers**, **chiffrement**, **historique des actions** et **rapports exportables**.
+Certains composants de sécurité des sessions et des rapports ont obtenu une **acceptation indépendante avec réserves**, limitée à leur périmètre testé.
 
-Des éléments ont déjà été testés sur des exemples fictifs. D'autres, notamment le chiffrement du stockage, les sauvegardes, l'export complet des traces et les durées de conservation, **restent à vérifier ou décider**.
+**La création et la clôture de dossiers restent bloquées pour l’intégration.** Les derniers audits indépendants ont confirmé des améliorations, mais aussi des défauts d’autorisation nécessitant de nouveaux correctifs. Le protocole futur de clôture exige encore une décision de sécurité.
 
-La présence d'une information sur Internet ne suffit pas à autoriser sa collecte. Le **RGPD**, la **loi Informatique et Libertés** ou les règles **« Police-Justice »** peuvent s'appliquer selon les circonstances.
+Aucune homologation, conformité générale, disponibilité du service ou date d’ouverture n’est annoncée.
 
-**Aucune conformité globale, homologation ni date d'ouverture n'est annoncée.**
+[Lire le guide de sécurité et de droit](SECURITE_ET_DROIT.md) · [Consulter la feuille de route](ROADMAP.md) · [Questions fréquentes](FAQ.md).
 
-[Lire le guide simple de sécurité et de droit](SECURITE_ET_DROIT.md)
+## L'identité « Shield Beacon »
 
-## Où en sommes-nous ?
+La charte SunTinel associe un **bouclier protecteur** et une **balise solaire** : investigation, protection, précision, traçabilité et confiance. Le bleu nuit profond est associé aux accents or, cyan, vert et violet.
 
-- **Des premiers composants ont été évalués**, avec réserves.
-- **Une correction de sécurité ciblée a été acceptée** après audit indépendant, avec notes.
-- **La révocation des anciennes sessions a été acceptée par un audit indépendant, avec réserves**, sur les deux modes de stockage testés. Cela ne vaut pas validation de toute la sécurité.
-- **La correction des rapports a été acceptée avec réserves** par un audit indépendant, mais son intégration reste à vérifier.
-- **La nouvelle correction des dossiers a été auditée : des progrès sont confirmés, mais un problème reste à corriger**, avant acceptation ou intégration.
-- **Les protections de sessions et de rapports ont été réunies localement pour des essais** ; le dernier audit confirme plusieurs corrections mais impose une remédiation supplémentaire avant acceptation ou intégration.
-- **L'interface de revue et certains repères visuels restent à développer** avant la bêta.
-- **L'interface complète et l'accès sur validation restent à développer.**
+[Voir la charte visuelle et les assets](BRAND.md).
 
-Les fonctions décrites ne sont pas forcément disponibles aujourd'hui. Aucun accès réel n'est ouvert.
+## À propos de ce dépôt
 
-[Feuille de route](ROADMAP.md) · [Journal des avancées](CHANGELOG.md) · [Questions fréquentes](FAQ.md)
+Ce dépôt contient **uniquement la présentation publique, les visuels et les annonces de progression**. Aucun code privé, dossier d’enquête, donnée nominative, secret, rapport confidentiel ou détail de vulnérabilité exploitable n’y est publié.
 
-## Ce dépôt GitHub
+SunTinel est un projet indépendant, et non un service officiel ou homologué d’une administration.
 
-Ce dépôt est uniquement **le site public de présentation et d'actualités**. Il ne contient pas le code privé de l'application, des dossiers, des données de personnes, des secrets ou des rapports confidentiels.
-
-SunTinel est un projet indépendant. Il n'est pas présenté comme un service officiel ou homologué d'une administration.
-
-[Comment la page est mise à jour](PUBLISHING.md)
+[Guide de publication](PUBLISHING.md).

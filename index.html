@@ -3,18 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0d1724">
-  <meta name="description" content="SunTinel : un projet privé de recherche en sources ouvertes (OSINT). Découvrez les recherches envisagées, les outils, la protection des données et les avancées de la bêta.">
+  <meta name="theme-color" content="#0A0F14">
+  <meta name="description" content="SunTinel — plateforme privée d’investigation OSINT. Sources ouvertes, recoupement, traçabilité et revue humaine. Bêta 0.1 en développement, accès fermé.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="fr_FR">
-  <meta property="og:title" content="SunTinel — Rechercher, vérifier, expliquer">
-  <meta property="og:description" content="Découvrez SunTinel : recherches OSINT, outils, confidentialité et avancement transparent du projet.">
+  <meta property="og:title" content="SunTinel — L’information mérite de la méthode">
+  <meta property="og:description" content="Plateforme privée pour rechercher, recouper et documenter les sources ouvertes. Projet en développement, accès fermé.">
   <meta property="og:url" content="https://ashtraysunn.github.io/suntinel-updates/">
   <link rel="canonical" href="https://ashtraysunn.github.io/suntinel-updates/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
-  <title>SunTinel — Rechercher, vérifier, expliquer</title>
+  <title>SunTinel — Intelligence numérique responsable</title>
 </head>
 <body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -22,15 +22,15 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#accueil" aria-label="SunTinel, retour à l'accueil">
-        <span class="brand-mark" aria-hidden="true">S</span>
-        <span>Sun<strong>Tinel</strong></span>
+        <img class="brand-symbol" src="assets/shield-beacon.svg" alt="" width="46" height="46">
+        <span class="wordmark"><span class="wordmark-line"><span>SUN</span><strong>TINEL</strong></span><span class="wordmark-descriptor">OSINT INVESTIGATION PLATFORM</span></span>
       </a>
       <nav aria-label="Navigation principale">
-        <a href="#recherches">Recherches</a>
-        <a href="#outils">Outils</a>
+        <a href="#projet">La plateforme</a>
+        <a href="#recherches">Recherche OSINT</a>
+        <a href="#methode">La méthode</a>
         <a href="#securite">Protection</a>
         <a href="#avancement">Avancement</a>
-        <a href="#questions">Questions</a>
       </nav>
     </div>
   </header>
@@ -39,30 +39,29 @@
     <section class="hero" id="accueil" aria-labelledby="titre">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> BÊTA 0.1 · EN DÉVELOPPEMENT</p>
-          <h1 id="titre">Rechercher.<br>Vérifier.<br><em>Expliquer.</em></h1>
-          <p class="hero-lead">SunTinel est un logiciel en création pour aider des enquêteurs autorisés à retrouver des informations publiques, les comparer et préparer des rapports clairs.</p>
-          <p class="hero-simple">L'objectif : <strong>une recherche plus organisée, sans conclusions automatiques.</strong></p>
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> SUNTINEL / BÊTA 0.1 <span class="eyebrow-separator">—</span> DÉVELOPPEMENT PRIVÉ</p>
+          <h1 id="titre">L’information mérite <em>de la méthode.</em></h1>
+          <p class="hero-lead">Une plateforme privée d’investigation OSINT pour <strong>rechercher, recouper et documenter</strong> les informations issues de sources ouvertes — sans confondre une piste et une preuve.</p>
+          <p class="hero-simple">Un objectif : rendre chaque recherche <strong>plus lisible, traçable et vérifiable</strong>, sous contrôle humain.</p>
           <div class="hero-actions">
-            <a class="primary-button" href="#recherches">Découvrir les recherches <span aria-hidden="true">↗</span></a>
-            <a class="text-link" href="#avancement">Voir les avancées <span aria-hidden="true">→</span></a>
+            <a class="primary-button" href="#projet">Explorer SunTinel <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#avancement">Suivre le développement <span aria-hidden="true">→</span></a>
           </div>
-          <p class="hero-warning">Le service n'est pas ouvert. Aucune recherche de personne n'est possible depuis cette page.</p>
+          <p class="hero-warning"><span aria-hidden="true">◇</span> Aucune recherche de personne n'est possible depuis cette page. L'accès au service reste fermé.</p>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
-          <div class="center-orbit"><span>S</span></div>
-          <span class="signal-point signal-one"></span><span class="signal-point signal-two"></span>
-          <span class="signal-note">SOURCES · MÉTHODE · TRAÇABILITÉ</span>
+          <img class="hero-art" src="assets/hero-beacon.svg" alt="" width="660" height="600">
+          <div class="hero-visual-top"><span class="tiny-light"></span> SHIELD BEACON <span>·</span> CONCEPT VISUEL</div>
+          <div class="hero-visual-foot"><span>INTELLIGENCE NUMÉRIQUE RESPONSABLE</span><span>ST / 001</span></div>
         </div>
       </div>
     </section>
 
     <div class="container status-strip" aria-label="Situation actuelle du projet">
-      <div><span>ÉTAT</span><strong>Développement privé</strong></div>
-      <div><span>TESTS</span><strong>Données fictives</strong></div>
-      <div><span>ACCÈS</span><strong>Fermé</strong></div>
-      <div><span>MISE À JOUR</span><strong id="date-maj">22 octobre 2026</strong></div>
+      <div><span>STATUT DU PROJET</span><strong>Développement privé</strong></div>
+      <div><span>ENVIRONNEMENT</span><strong>Données synthétiques</strong></div>
+      <div><span>ACCÈS À LA PLATEFORME</span><strong>Fermé · sur validation</strong></div>
+      <div><span>DERNIÈRE ACTUALISATION</span><strong id="date-maj">24 octobre 2026</strong></div>
     </div>
 
     <section class="section container intro" id="projet" aria-labelledby="titre-projet">
@@ -173,7 +172,7 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><a class="footer-brand" href="#accueil">Sun<strong>Tinel</strong></a><p>Projet indépendant en développement. Aucun lien officiel revendiqué avec une administration.</p></div>
+      <div><a class="footer-brand" href="#accueil">SUN<strong>TINEL</strong></a><p>Plateforme OSINT privée en développement. Projet indépendant, sans lien officiel revendiqué avec une administration.</p></div>
       <div><h2>En savoir plus</h2><a href="OUTILS_ET_RECHERCHES.md">Recherches et outils</a><a href="SECURITE_ET_DROIT.md">Sécurité et droit</a><a href="FAQ.md">Questions fréquentes</a></div>
       <div><h2>Suivre le projet</h2><a href="https://github.com/AshtraySunn/suntinel-updates">Dépôt GitHub</a><a href="CHANGELOG.md">Journal des avancées</a><a href="ROADMAP.md">Feuille de route</a></div>
     </div>

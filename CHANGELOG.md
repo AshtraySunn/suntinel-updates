@@ -2,6 +2,14 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Création des dossiers : audit indépendant défavorable
+
+L’audit indépendant confirme plusieurs améliorations de la création et de la récupération des dossiers, mais relève un défaut d’autorisation encore bloquant. **Le candidat n’est pas accepté ; une nouvelle correction et une nouvelle revue sont nécessaires.** Aucun détail technique sensible n’est publié ici.
+
+## 24 octobre 2026 — Vitrine publique : identité Shield Beacon
+
+La vitrine et ses assets adoptent la charte SunTinel : fond nuit, bouclier solaire, couleurs or et cyan et typographie géométrique. Cette évolution visuelle ne signifie ni ouverture de la plateforme ni acceptation de sécurité.
+
 ## 24 octobre 2026 — Création des dossiers : nouvelle livraison pour audit
 
 Une correction locale ciblée des contrôles de session lors de la création de dossiers a terminé ses tests de développement. Des réserves restent à vérifier par un auditeur indépendant. **Ce candidat n'est pas accepté et n'a été ni intégré ni déployé.**
