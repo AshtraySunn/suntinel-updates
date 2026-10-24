@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Création des dossiers : nouveau candidat pour audit
+
+Un nouveau correctif local des contrôles de session lors de la création de dossiers a passé des tests de développement ciblés. **Ce candidat attend une revue de sécurité indépendante et n'est ni accepté, ni intégré, ni déployé.** Des limites de conception restent à examiner.
+
 ## 24 octobre 2026 — Retour à la présentation précédente
 
 La vitrine publique reprend le design utilisé avant la refonte Shield Beacon, à la demande du porteur du projet. Les résultats récents des audits et les informations de sécurité restent conservés. **Aucune modification du logiciel privé, aucune ouverture du service.**
