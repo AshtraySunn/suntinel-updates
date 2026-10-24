@@ -1,5 +1,5 @@
 {
-  "updated_label": "23 octobre 2026",
+  "updated_label": "24 octobre 2026",
   "milestones": [
     {
       "code": "01 · SOCLE",
@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Un audit indépendant confirme la correction de l'historique des créations, mais un problème de sécurité de session bloque toujours l'intégration."
+      "description": "Un nouveau candidat de correction de la création des dossiers a été livré et testé en développement. Il attend une revue indépendante ; l'intégration reste bloquée."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-24",
+      "date_label": "24 oct. 2026",
+      "title": "Création de dossiers : candidat soumis à audit indépendant",
+      "summary": "Un correctif ciblé sur la cohérence des décisions d'accès a été livré localement, avec des tests de développement favorables et des réserves documentées. Il n'est ni accepté ni intégré ni déployé."
+    },
     {
       "date_iso": "2026-10-23",
       "date_label": "23 oct. 2026",
