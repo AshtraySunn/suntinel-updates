@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "La création des dossiers a reçu un nouveau correctif de développement avec tests favorables, mais sa sécurité doit encore être validée par un audit indépendant."
+      "description": "Le dernier candidat a été audité : des améliorations sont confirmées, mais une correction supplémentaire est nécessaire avant acceptation et intégration."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-24",
+      "date_label": "24 oct. 2026",
+      "title": "Création des dossiers : correction supplémentaire requise",
+      "summary": "L'audit indépendant du dernier candidat confirme des progrès, mais conclut qu'une nouvelle correction est nécessaire. Aucun composant n'a été intégré ni mis en service."
+    },
     {
       "date_iso": "2026-10-24",
       "date_label": "24 oct. 2026",

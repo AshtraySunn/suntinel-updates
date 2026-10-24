@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Création des dossiers : nouvelle correction requise
+
+La revue indépendante du dernier candidat confirme des progrès, mais ne permet pas son acceptation. Une nouvelle correction suivie d'un audit reste nécessaire. La plateforme n'est pas ouverte.
+
 ## 24 octobre 2026 — Création des dossiers : nouveau candidat livré pour audit
 
 Une nouvelle version de développement apporte des contrôles plus complets sur les autorisations et leur traçabilité. Les campagnes de tests réalisées par le développeur sont favorables, mais **un audit indépendant reste obligatoire**. Il ne s'agit ni d'une acceptation, ni d'une intégration, ni d'une mise en service.
