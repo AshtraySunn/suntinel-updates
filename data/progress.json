@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Un nouveau candidat de correction de création de dossiers a été livré et testé par le développeur. Une revue indépendante reste indispensable ; intégration toujours bloquée."
+      "description": "L'audit indépendant d'un nouveau correctif confirme la correction de la concurrence sur les sessions. Une décision sur le contrat temporel et des garanties complémentaires restent nécessaires avant intégration."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-10-24",
+      "date_label": "24 oct. 2026",
+      "title": "Création des dossiers : revue indépendante terminée",
+      "summary": "Un audit indépendant confirme une correction importante mais conclut qu'une décision sur les garanties de sécurité est encore nécessaire. Le composant n'est pas accepté, intégré ni déployé."
+    },
     {
       "date_iso": "2026-10-24",
       "date_label": "24 oct. 2026",

@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
 
+## 24 octobre 2026 — Création des dossiers : arbitrage de sécurité nécessaire
+
+La revue indépendante du dernier correctif confirme la fermeture du problème de concurrence ciblé. Elle identifie néanmoins une décision de conception et de sécurité indispensable avant acceptation : **le candidat n'est toujours pas accepté, intégré ou déployé**. Aucune ouverture de la plateforme n'est autorisée.
+
 ## 24 octobre 2026 — Création des dossiers : nouveau candidat pour audit
 
 Un nouveau correctif local des contrôles de session lors de la création de dossiers a passé des tests de développement ciblés. **Ce candidat attend une revue de sécurité indépendante et n'est ni accepté, ni intégré, ni déployé.** Des limites de conception restent à examiner.
