@@ -2,6 +2,10 @@
 
 *Informations de développement, sans détails sensibles. Dernière mise à jour : 2 novembre 2026.*
 
+## 2 novembre 2026 — Création des dossiers : audit indépendant défavorable
+
+La revue indépendante confirme une amélioration du contrôle des sessions, mais constate deux défauts bloquants affectant la cohérence des opérations et leur finalisation. **Une correction supplémentaire et un nouvel audit sont nécessaires. Le composant n'est ni accepté, ni intégré, ni déployé.**
+
 ## 2 novembre 2026 — Création des dossiers : nouveau correctif remis à l'audit
 
 Une nouvelle version locale apporte une correction ciblée des contrôles d'autorisation. Les résultats du développeur sont favorables ; **le candidat doit encore passer un audit indépendant**. Aucun code privé n'est intégré ni déployé, et le service reste fermé.

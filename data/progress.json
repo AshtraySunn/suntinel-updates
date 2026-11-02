@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Un nouveau correctif des règles de session a été livré en développement et attend une revue indépendante. Les contrôles de sécurité ne sont pas acceptés pour intégration."
+      "description": "L'audit indépendant confirme une amélioration de l'ordre des autorisations, mais identifie des anomalies bloquantes de cohérence et de finalisation. Une nouvelle correction est requise."
     },
     {
       "code": "03 · RAPPORTS",
@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Nouvelle version de la création des dossiers testée localement, en attente d'un audit indépendant. L'intégration reste interdite."
+      "description": "Le dernier candidat n'a pas été accepté à l'audit. Une correction complémentaire et une nouvelle vérification indépendante sont nécessaires avant intégration."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-11-02",
+      "date_label": "2 nov. 2026",
+      "title": "Création des dossiers : nouvelle correction nécessaire",
+      "summary": "L'audit indépendant confirme une avancée mais détecte deux défauts bloquants. Le candidat reste non accepté ; aucun code privé n'est intégré ou déployé."
+    },
     {
       "date_iso": "2026-11-02",
       "date_label": "2 nov. 2026",

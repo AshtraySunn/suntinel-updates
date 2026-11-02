@@ -5,9 +5,9 @@
 | Sujet | Où en sommes-nous ? |
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
-| **Comptes et sécurité** | Correction ciblée des règles de session livrée en développement, revue indépendante encore nécessaire |
+| **Comptes et sécurité** | L'audit indépendant relève encore des défauts bloquants ; nouveau correctif et revue nécessaires |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; réunion locale avec la gestion des sessions, intégration globale non validée |
-| **Création des dossiers** | Nouveau candidat livré localement et testé par le développeur ; non accepté, audit indépendant requis |
+| **Création des dossiers** | Dernier candidat refusé après audit indépendant ; correction de cohérence et nouvelle validation requises |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |
