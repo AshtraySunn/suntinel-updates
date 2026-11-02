@@ -1,6 +1,10 @@
 # Journal public des avancées
 
-*Informations de développement, sans détails sensibles. Dernière mise à jour : 24 octobre 2026.*
+*Informations de développement, sans détails sensibles. Dernière mise à jour : 2 novembre 2026.*
+
+## 2 novembre 2026 — Création des dossiers : nouveau correctif remis à l'audit
+
+Une nouvelle version locale apporte une correction ciblée des contrôles d'autorisation. Les résultats du développeur sont favorables ; **le candidat doit encore passer un audit indépendant**. Aucun code privé n'est intégré ni déployé, et le service reste fermé.
 
 ## 24 octobre 2026 — Création des dossiers : nouvelle correction requise
 

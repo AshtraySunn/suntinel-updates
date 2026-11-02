@@ -1,5 +1,5 @@
 {
-  "updated_label": "24 octobre 2026",
+  "updated_label": "2 novembre 2026",
   "milestones": [
     {
       "code": "01 · SOCLE",
@@ -11,7 +11,7 @@
       "code": "02 · SÉCURITÉ",
       "title": "Protection des comptes",
       "status": "working",
-      "description": "Un nouveau candidat implémente les décisions d'autorisation enregistrées durablement. Il est prêt pour une revue indépendante ; aucune acceptation ou intégration n'est acquise."
+      "description": "Un nouveau correctif des règles de session a été livré en développement et attend une revue indépendante. Les contrôles de sécurité ne sont pas acceptés pour intégration."
     },
     {
       "code": "03 · RAPPORTS",
@@ -23,7 +23,7 @@
       "code": "04 · DOSSIERS",
       "title": "Création et intégrité des dossiers",
       "status": "working",
-      "description": "Le dernier candidat a été audité : des améliorations sont confirmées, mais une correction supplémentaire est nécessaire avant acceptation et intégration."
+      "description": "Nouvelle version de la création des dossiers testée localement, en attente d'un audit indépendant. L'intégration reste interdite."
     },
     {
       "code": "05 · INTERFACE",
@@ -45,6 +45,12 @@
     }
   ],
   "updates": [
+    {
+      "date_iso": "2026-11-02",
+      "date_label": "2 nov. 2026",
+      "title": "Création des dossiers : nouveau candidat en revue",
+      "summary": "Un correctif ciblé des contrôles de session a été livré et testé en développement. Son audit indépendant reste à réaliser ; la plateforme demeure fermée."
+    },
     {
       "date_iso": "2026-10-24",
       "date_label": "24 oct. 2026",

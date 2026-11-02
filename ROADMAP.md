@@ -1,13 +1,13 @@
 # Feuille de route de SunTinel
 
-*Dernière mise à jour : 24 octobre 2026. Il n'existe pas encore de date d'ouverture.*
+*Dernière mise à jour : 2 novembre 2026. Il n'existe pas encore de date d'ouverture.*
 
 | Sujet | Où en sommes-nous ? |
 | --- | --- |
 | **Recherche et classement** | Premiers composants évalués avec réserves |
-| **Comptes et sécurité** | Nouveau candidat d'autorisation durable développé, audit indépendant nécessaire avant toute intégration |
+| **Comptes et sécurité** | Correction ciblée des règles de session livrée en développement, revue indépendante encore nécessaire |
 | **Revue humaine et rapports** | Correctif accepté avec réserves ; réunion locale avec la gestion des sessions, intégration globale non validée |
-| **Création des dossiers** | Nouveau correctif livré localement et testé par le développeur ; non accepté, revue indépendante en attente |
+| **Création des dossiers** | Nouveau candidat livré localement et testé par le développeur ; non accepté, audit indépendant requis |
 | **Interface enquêteur** | Premiers essais de navigation fictive réalisés ; interface de revue et repères visuels encore incomplets |
 | **Recherche par e-mail, téléphone ou image** | À l'étude, pas encore disponible |
 | **Chiffrement et sauvegardes** | Protection complète à vérifier |
